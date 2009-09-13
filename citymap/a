@@ -1,0 +1,17 @@
+#! /bin/bash
+echo -n "Choose IPC communication type (fifo, shm, sock, mesg ): "
+read -e IPC
+
+if [ "$IPC" = fifo ] || [ "$IPC" = shm ] || [ "$IPC" = sock ] || [ "$IPC" = mesg ]
+then
+ 	echo Selected IPC: $IPC
+	make clean
+	make $IPC
+	city
+else
+  echo "You chose an invalid option ..."
+  echo "Bye bye !!"  
+  exit 1
+fi
+
+exit 0
