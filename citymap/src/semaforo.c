@@ -27,7 +27,7 @@
 /*
  * Macros and definitions
  */
- 
+
 
 
 typedef struct semaforoT{
@@ -36,7 +36,7 @@ typedef struct semaforoT{
 	//Direction facing
 	int state; //NS or EW
 	int timechange;//the time to wait tochange the state.
-}semaforoT;	
+}semaforoT;
 
 enum {VERDEVERT, ROJOVERT};
 
@@ -61,7 +61,14 @@ void newLights(void)
 	{
 		fatal("In open of trafic lights configuration file:");
 	}
-	
+/*creo un archivo de log para probar*/
+	if ((log = fopen("logFile","wt")) == NULL)
+		{
+			fatal("In open log File:");
+		}
+	/*creo un archivo de log para probar*/
+
+
 	while ((i = fscanf(arch, "%d %d %d\n", &aux.pos.x, &aux.pos.y, &aux.timechange))
 			!= EOF)
 	{
@@ -79,15 +86,15 @@ void newLights(void)
     		   	traficLight[count-1].timechange = aux.timechange;
        			traficLight[count-1].state = VERDEVERT;
        			setState(aux.pos, VERDEVERTICALVACIO);
-       
+       			fprintf(log, "Se creo un semaforo en x= %d, y= %d, tiempo de cambio = %d\n",traficLight[count-1].pos.x , traficLight[count-1].pos.y, traficLight[count-1].timechange );
 			}
-    } 
+    }
 	cantLights = count;
 	if (fclose(arch) == EOF)
 	{
 		fatal("In close of trafic lights  configuration file:");
 	}
-		
+
 }
 
 
@@ -98,12 +105,15 @@ static void changeStateSemlight( semaforoT light)
   {
     light.state = ROJOVERT;
     setState(light.pos, getState(light.pos) + ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-  }  
+		fprintf(log, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light.pos.x , light.pos.y);
+  }
   else
   {
     light.state = VERDEVERT;
      setState(light.pos, getState(light.pos) - ( VERDEVERTICALVACIO -ROJOVERTICALVACIO));
-  } 
+	fprintf(log, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light.pos.x , light.pos.y);
+
+  }
 }
 
 void changeSemaforo( int time )
@@ -111,8 +121,8 @@ void changeSemaforo( int time )
 int i;
 for (i = 0; i < cantLights; ++i)
   {
-    if (time % traficLight[cantLights].timechange == 0)
-    changeStateSemlight(traficLight[cantLights]);
+    if (time % traficLight[i].timechange == 0)
+    changeStateSemlight(traficLight[i]);
   }
 }
 

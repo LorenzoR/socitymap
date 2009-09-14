@@ -37,10 +37,11 @@ typedef struct paradaT{
 typedef struct peopleT{
 	coor pos; /*destiny*/
 	peopleADT sig;
+	int name;
 }peopleT;
 
 
-
+int peoplename = 0;
 
 
 paradaADT newparadas()
@@ -61,6 +62,11 @@ paradaADT insertParada(paradaADT list, coor pos) {
 		list->people = NULL;
 		setState(pos, PARADAVACIO);
 		list->sig =aux;
+
+
+		fprintf(log, "Se crea una parada en x = %d, y  = %d\n" , list->pos.x, list->pos.y);
+
+
 		return list;
 
 }
@@ -90,6 +96,8 @@ void removepeople(peopleADT *list,  coor pos)
 		return;
 	if ((*list)->pos.x == pos.x && (*list)->pos.y == pos.y )
 	{
+		fprintf(log, "Se baja la persona  %d\n" , (*list)->name);
+
 		/*hay que borrar*/
 
 		aux = (*list)->sig;
@@ -107,6 +115,7 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 		return;
 	if (list->pos.x == pos.x && list->pos.y == pos.y )
 	{
+		fprintf(log, "Se sube la gente de la parada en x= %d, y= %d\n" , list->pos.x, list->pos.y);
 		aux = *bus;
 		pre = aux;
 		if( *bus == NULL)
@@ -117,11 +126,11 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 		{
 			while (aux != NULL)
 			{
-		
+
 				pre = aux;
 				aux =aux->sig;
 			}
-			pre->sig = list->people; 
+			pre->sig = list->people;
 		}
 		list->people = NULL;
 	}
