@@ -8,10 +8,10 @@
 #ifndef SESSION_FIFO_H_
 #define SESSION_FIFO_H_
 
-#include "common.h"
+#include "helper.h"
 #include "comm.h"
 
-#define MAX_BUFFER_SIZE 512
+#define MAX_BUFFER_SIZE 4*MAXX*MAXY
 /*
 typedef struct{
 	char buf[MAX_BUFFER_SIZE];

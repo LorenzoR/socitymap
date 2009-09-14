@@ -15,9 +15,9 @@
 enum {NORTE =1, OESTE=2 , ESTE=3, SUR=4};
 enum {VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3, ROJOVERTICALVACIO = 4, ROJOVERTICALLENO =5,  PARADAVACIO = 6, PARADASLLENO = 7};
 
-#define MAXX 11
+#define MAXX 17
 #define MAXY MAXX
-
+#define MAP_SIZE 4*MAXX*MAXY
 
 typedef struct coor{
 //Position in the map

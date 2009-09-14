@@ -24,7 +24,7 @@ getMem( key_t key, int size )
 	int shmid;
 	void * p;
 
-	printf("getMem():entre a crear la shm, key=%X", key);//DEBUG
+	//printf("getMem():entre a crear la shm, key=%X", key);//DEBUG
 	if( ( shmid = shmget(key, size, SHMEMPERM|IPC_CREAT|IPC_EXCL) ) == -1 )
 	{
 		if( ( shmid = shmget(key, size, 0 ) ) == -1 )
@@ -36,7 +36,7 @@ getMem( key_t key, int size )
 		return NULL;
 	}
 	shmid_array[pos++] = shmid;
-	printf("getMem():shm en dir=%X", p);//DEBUG
+	//printf("getMem():shm en dir=%X", p);//DEBUG
 
 	return p;
 }

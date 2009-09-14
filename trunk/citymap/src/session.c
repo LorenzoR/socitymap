@@ -5,7 +5,7 @@
  *      Author:
  */
 #include "session.h"
-#include "common.h"
+#include "helper.h"
 
 
 //Libraries to use FIFOs
@@ -52,7 +52,8 @@ getMapUpdates(struct mapCDT **map )
 	if( (n=recibir_datos( comm, (void *)buf, MAX_BUFFER_SIZE )) < 0 )
 		return 4;	
 	
-	*map = malloc(sizeof(struct mapCDT));
+	*map = calloc(1,sizeof(struct mapCDT));
+	
 	memcpy( (*map)->state, buf, n );
 	//memcpy( (*map)->matrix, buf, sizeof((*map)->matrix) );
 	//(*map)->dim =MAP_SIZE;

@@ -13,7 +13,7 @@
 
 //Nuestros includes
 #include "comm.h"
-#include "common.h"
+#include "helper.h"
 #include "sharedMem.h"
 #include "semaphore.h"
 
@@ -23,7 +23,7 @@
 
 //Definiciones para inicializar Shared memory
 #define SHMKEY (key_t)0x100
-#define MAX_SHM 2048
+#define MAX_SHM MAP_SIZE
 
 //Estructura a ser intercambiada en el shared memory
 typedef struct mesg{

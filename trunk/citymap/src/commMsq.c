@@ -25,8 +25,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-
-#include "common.h"
+#include "helper.h"
 #include "comm.h"
 
 //Para el uso de funciones como:  open(), lockf()
@@ -51,7 +50,7 @@
 #define TIMEOUT 4
 
 //Definiciones para message queue
-#define MSGSZ 512
+#define MSGSZ MAP_SIZE
 #define QUEUE_KEY 0xBEEF0
 
 //Flags usados para esperar a que llegue un signal

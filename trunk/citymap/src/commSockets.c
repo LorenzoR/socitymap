@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
-#include "common.h"
+#include "helper.h"
 #include "comm.h"
 
 //Para el uso de funciones como:  open(), lockf()
