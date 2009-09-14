@@ -11,6 +11,11 @@
 #ifndef MAPADT_H_
 #define MAPADT_H_
 
+/*para probar*/
+#include <stdio.h>
+FILE * log;
+/*hasta aca*/
+
 
 enum {NORTE =1, OESTE=2 , ESTE=3, SUR=4};
 enum {VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3, ROJOVERTICALVACIO = 4, ROJOVERTICALLENO =5,  PARADAVACIO = 6, PARADASLLENO = 7};
@@ -22,7 +27,7 @@ enum {VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3, ROJO
 typedef struct coor{
 //Position in the map
   int x;
-  int y;  
+  int y;
 }coor;
 
  struct mapCDT

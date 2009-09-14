@@ -46,13 +46,14 @@ typedef struct colectivoT{
 	colectivoADT sig;
 	int dir;
 	peopleADT people;
+	int name;
 }colectivoT;
 /*
 static int GraphIsEmpty(colectivoADT graph) {
 	return graph == NULL;
 }
 */
-
+int newname = 0;
 
 static void getNewRoute(colectivoADT bus, listADT list)
 {
@@ -98,15 +99,17 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 	{
 		if (haspeopletoleave(bus->people ,bus->pos))
 		{
+			fprintf(log, "Se bajan personas del micro %d\n" , bus->name);
 			removepeople(&(bus->people), bus->pos);
 			bus->lastMovedOn = time;
-		}		
+		}
 		if (hastostop(list->paradas ,bus->pos))
 		{
+			fprintf(log, "va a subir gente al micro %d\n" , bus->name);
 			movepeople(list->paradas ,bus->pos , &(bus->people));
 			bus->lastMovedOn = time;
 		}
-	}	
+	}
 	if(time != bus->lastMovedOn)
 	{
 
@@ -179,7 +182,11 @@ void InsertBus(listADT list, coor pos, int time) {
 		list->bus->pos.y = pos.y;
 		getNewRoute(list->bus, list);
 		list->bus->lastMovedOn = time;
+		list->bus->name = newname;
 		list->bus->sig =aux;
+		newname++;
+
+		fprintf(log, "Se creo un colectivo %d\n" , list->bus->name);
 
 
 }
