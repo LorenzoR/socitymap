@@ -6,7 +6,7 @@
 #include <signal.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include "common.h"
+#include "helper.h"
 #include "comm.h"
 
 //Para el uso de funciones como:  open(), lockf()
@@ -50,7 +50,6 @@ struct comm{
 	char command[FULL_PATH_LEN+1];
 	char data[FULL_PATH_LEN+1];
 };
-
 
 //Funciones estaticas auxiliares
 static void buildPathFileName( char *path, char *filename, int pid);
@@ -143,8 +142,7 @@ establecer_conexion( commT comm )
 	signal(SIGALRM, alarmHandler);
 	alarm(TIMEOUT);
 	alarmFlag = FALSE;
-	//while( (comm->fd_command = open(comm->command, O_WRONLY|O_NONBLOCK) ) == -1 )
-	while( (comm->fd_command = open("/tmp/cmd", O_WRONLY|O_NONBLOCK) ) == -1 )
+	while( (comm->fd_command = open(comm->command, O_WRONLY|O_NONBLOCK) ) == -1 )	
 	{
 		if( alarmFlag )
 		{
@@ -162,13 +160,7 @@ aceptar_conexion( commT comm )
 {
 	signal(SIGPIPE, chauServer);
 
-	//Construyo los nombres para los fifos
-	//buildPathFileName( comm->command, CMD_FIFO, comm->pid_client );
-	//buildPathFileName( comm->data, DATA_FIFO, comm->pid_client );
-
-
-	//comm->fd_command = open(comm->command, O_RDONLY);
-	comm->fd_command = open("/tmp/cmd", O_RDONLY);
+	comm->fd_command = open(comm->command, O_RDONLY);	
 	//printf("aceptar_conexion(): se abrio ipc COMMAND para atender cliente\n"); //DEBUG
 	/*
 	//Pongo un timeout para abrir ipc de una conexion
@@ -177,7 +169,6 @@ aceptar_conexion( commT comm )
 	alarmFlag = FALSE;
 	while( ( comm->fd_data = open(comm->data, O_WRONLY|O_NONBLOCK) ) == -1 )
 	{
-
 		if( alarmFlag )
 		{
 			alarm(0);
@@ -185,7 +176,6 @@ aceptar_conexion( commT comm )
 			liberar_conexion( comm );
 			return 0;
 		}
-
 	}
 	*/
 	//printf("aceptar_conexion(): se abrio ipc DATA para atender cliente\n"); //DEBUG
@@ -275,7 +265,7 @@ recibir_datos( commT comm, void *datos, int lim)
 static void
 buildPathFileName( char *path, char *filename, int pid)
 {
-	char cad_pid[100+1];
+	//char cad_pid[100+1];
 
 	path[0] = 0;
 	strcat( path, PATH );
@@ -309,4 +299,3 @@ alarmHandler( int sig )
 	alarmFlag = TRUE;
 	return;
 }
-

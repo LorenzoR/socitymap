@@ -19,9 +19,9 @@ SRC_DIR=src/
 
 TARGET=city
  
-COMMON=$(SRC_DIR)map.o $(SRC_DIR)session.o $(SRC_DIR)common.o  $(SRC_DIR)semaforo.o $(SRC_DIR)mapADT.o $(SRC_DIR)linea.o $(SRC_DIR)colectivo.o $(SRC_DIR)paradas.o 
-SHM=$(SRC_DIR)comm_shm.o $(SRC_DIR)semaphore.o $(SRC_DIR)sharedMem.o
-FIFO=$(SRC_DIR)comm.o
+COMMON=$(SRC_DIR)application.o $(SRC_DIR)session.o $(SRC_DIR)helper.o  $(SRC_DIR)semaforo.o $(SRC_DIR)mapADT.o $(SRC_DIR)linea.o $(SRC_DIR)colectivo.o $(SRC_DIR)paradas.o 
+SHM=$(SRC_DIR)commShm.o $(SRC_DIR)semaphore.o $(SRC_DIR)sharedMem.o
+FIFO=$(SRC_DIR)commFifo.o
 SOCK=$(SRC_DIR)commSockets.o
 MESG=$(SRC_DIR)commMsq.o
 

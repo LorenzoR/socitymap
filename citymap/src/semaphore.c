@@ -23,8 +23,7 @@ sem_init( key_t semkey, int initval )
 			semun arg;
 			arg.val = 0;
 			status = semctl(semid, 0 , GETVAL , arg );
-			printf("sem_init(): semaforo ya exitia con valor %d\n", status);
-
+			//printf("sem_init(): semaforo ya exitia con valor %d\n", status);
 			//END DEBUG
 		}
 	}
