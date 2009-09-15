@@ -76,8 +76,8 @@ main(void)
 			break;
 
 		case 0: // child		
-			//trafficManager();
-			mockTrafficManager();							
+			trafficManager();
+			//mockTrafficManager();							
 			exit(0);
 			break;
 		
@@ -273,12 +273,12 @@ mockCalculateChanges(int signum)
 void 
 trafficManager(void)
 {
-	/*
+
 	lineaADT * lineas = NULL;
 	int cantlinea, change, i,time=0;
 	DIR *d;
 	struct dirent *dir;
-	*/
+	
 	//memset(&map,0xff, sizeof(struct mapCDT));
 	buildMap(&map);
 	newLights();
@@ -304,11 +304,11 @@ trafficManager(void)
 	while( 1 )
 	{
 		sleep(1);
-		//time++;
-		//change  = 1;
-		//changeSemaforo(  time );
-		/*
-		while(change != 0)
+		time++;
+		change  = 1;
+		changeSemaforo(  time );
+		
+		/*while(change != 0)
 		{
 			change = 0;
 			for(i= 0; i < cantlinea ; ++i)

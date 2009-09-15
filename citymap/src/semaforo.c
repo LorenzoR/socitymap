@@ -99,19 +99,19 @@ void newLights(void)
 
 
 
-static void changeStateSemlight( semaforoT light)
+static void changeStateSemlight( semaforoT *light)
 {
-  if( light.state == VERDEVERT)
+  if( (light->state == VERDEVERT) )
   {
-    light.state = ROJOVERT;
-    setState(light.pos, getState(light.pos) + ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-		fprintf(log, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light.pos.x , light.pos.y);
+    light->state = ROJOVERT;
+    setState(light->pos, getState(light->pos) + ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
+    fprintf(log, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light->pos.x , light->pos.y);
   }
   else
   {
-    light.state = VERDEVERT;
-     setState(light.pos, getState(light.pos) - ( VERDEVERTICALVACIO -ROJOVERTICALVACIO));
-	fprintf(log, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light.pos.x , light.pos.y);
+    light->state = VERDEVERT;
+     setState(light->pos, getState(light->pos) - ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
+      fprintf(log, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light->pos.x , light->pos.y);
 
   }
 }
@@ -122,7 +122,7 @@ int i;
 for (i = 0; i < cantLights; ++i)
   {
     if (time % traficLight[i].timechange == 0)
-    changeStateSemlight(traficLight[i]);
+    changeStateSemlight(&traficLight[i]);
   }
 }
 
