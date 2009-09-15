@@ -276,9 +276,11 @@ trafficManager(void)
 {
 
 	lineaADT * lineas = NULL;
-	int cantlinea, change, i,time=0;
+	int cantlinea = 0, change, i,time=0;
 	DIR *d;
 	struct dirent *dir;
+
+	getNewSession(CLIENT);
 
 	//memset(&map,0xff, sizeof(struct mapCDT));
 	buildMap(&map);
@@ -310,7 +312,7 @@ trafficManager(void)
 		change  = 1;
 		changeSemaforo(  time );
 
-		/*while(change != 0)
+		while(change != 0)
 
 		{
 			change = 0;
@@ -318,7 +320,7 @@ trafficManager(void)
 				if (updateLinea(lineas[i], time) == 1)
 					change = 1;
 		}
-		*/
+
 		putMapUpdates(&map);
 	}
 
@@ -629,7 +631,7 @@ buildMap( struct mapCDT *map)
 	map->state[5][2] = VERDEVERTICALVACIO;
 	map->state[2][2] = ROJOVERTICALVACIO;
 	*/
-	/*
+
 	map->state[7][8] = PARADASLLENO;
 	map->state[14][15] = PARADASLLENO;
 	map->state[5][13] = PARADASLLENO;
@@ -639,7 +641,6 @@ buildMap( struct mapCDT *map)
 	map->state[8][1] = PARADAVACIO;
 	map->state[11][1] = PARADAVACIO;
 	map->state[2][15] = PARADAVACIO;
-	*/
 	return;
 }
 
