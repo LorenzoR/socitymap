@@ -35,6 +35,7 @@
 //Definiciones para sockets
 #define ADDRESS "localhost"
 #define PORT "60000"
+#define LOG_PORT "60010"
 
 //Flags usados para esperar a que llegue un signal
 int alarmFlag = FALSE;
@@ -77,6 +78,7 @@ commT
 iniciarComm( int tipoComm, char *nombreServidor )
 {		
 	commT comm;	
+	int port;
 	
 	if( ( comm = malloc( sizeof( struct comm) ) ) == NULL )
 		return NULL;
@@ -96,6 +98,10 @@ iniciarComm( int tipoComm, char *nombreServidor )
 	
 	strcpy(comm->nombreServidor, nombreServidor);
 	
+	if( strcmp(MAP_SERVER_NAME, comm->nombreServidor) == 0 )
+		port = PORT;
+	else
+		port = LOG_PORT;
 
 	if( tipoComm == CLIENT )
 	{			
@@ -106,11 +112,12 @@ iniciarComm( int tipoComm, char *nombreServidor )
 		signal(SIGPIPE, chauClient);		
 	}
 	else  
-	{	
-	      //Es el server, inicializo el socket para escuchar
-	      if ( (comm->udpSocket = passiveUDP(PORT) ) == -1 )
+	{					
+		//Es el server, inicializo el socket para escuchar
+	      if ( (comm->udpSocket = passiveUDP(port) ) == -1 )
 	      {
 		    free(comm);
+		    printf("\n%s\n", comm->nombreServidor);
 		    fatal("Error server socket");
 	      }
 
@@ -138,6 +145,7 @@ cerrarComm( commT comm )
 int 
 establecer_conexion( commT comm )
 {		
+	int port;
 	//Capturo si se cierra el ipc
 	signal(SIGPIPE, chauClient);
 	
@@ -146,10 +154,15 @@ establecer_conexion( commT comm )
 	alarm(TIMEOUT);
 	alarmFlag = FALSE;
 	
+	if( strcmp(MAP_SERVER_NAME, comm->nombreServidor) == 0 )
+		port = PORT;
+	else
+		port = LOG_PORT;
+
 	//Si el socket no esta abierto, lo abro para enviar
 	if ( comm->udpSocket == -1 )
 	{
-	      if ( (comm->udpSocket = connectUDP(ADDRESS, PORT) ) == -1 )
+	      if ( (comm->udpSocket = connectUDP(ADDRESS, port) ) == -1 )
 	      {
 		      if( alarmFlag )
 		      {

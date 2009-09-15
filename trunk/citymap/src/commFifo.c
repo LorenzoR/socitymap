@@ -52,7 +52,8 @@ struct comm{
 };
 
 //Funciones estaticas auxiliares
-static void buildPathFileName( char *path, char *filename, int pid);
+static void buildPathFileName( char *path, char *filename, char *serverName);
+
 
 //Funciones para manejo de problemas con FIFOs
 static void chauServer(int sig);
@@ -81,24 +82,6 @@ iniciarComm( int tipoComm, char *nombreServidor )
 	comm->pid_client = -1;
 	comm->pid_server = -1;
 
-	//Construyo los nombres para los fifos
-	buildPathFileName( comm->command, CMD_FIFO, comm->pid_client );
-	buildPathFileName( comm->data, DATA_FIFO, comm->pid_client );
-
-	strcpy(comm->nombreServidor, nombreServidor);
-
-	//Creo los ipc
-	if ( access(comm->command, 0) == -1 && mknod(comm->command, S_IFIFO|0666, 0) == -1 )
-	{
-		fatal("Error mknod command");
-		free(comm);
-	}
-	if ( access(comm->data, 0) == -1 && mknod(comm->data, S_IFIFO|0666, 0) == -1 )
-	{
-		free(comm);
-		fatal("Error mknod data");
-	}
-
 	if( tipoComm == CLIENT )
 	{
 		//Obtengo el pid del proceso cliente y guardo el nombre del servidor
@@ -114,6 +97,27 @@ iniciarComm( int tipoComm, char *nombreServidor )
 
 		signal(SIGPIPE, chauServer);
 	}
+
+	strcpy(comm->nombreServidor, nombreServidor);
+	
+	//Construyo los nombres para los fifos
+	buildPathFileName( comm->command, CMD_FIFO, nombreServidor );
+	buildPathFileName( comm->data, DATA_FIFO, nombreServidor );
+
+	strcpy(comm->nombreServidor, nombreServidor);
+
+	//Creo los ipc
+	if ( access(comm->command, 0) == -1 && mknod(comm->command, S_IFIFO|0666, 0) == -1 )
+	{
+		fatal("Error mknod command");
+		free(comm);
+	}
+	if ( access(comm->data, 0) == -1 && mknod(comm->data, S_IFIFO|0666, 0) == -1 )
+	{
+		free(comm);
+		fatal("Error mknod data");
+	}
+
 	return comm;
 }
 
@@ -263,20 +267,18 @@ recibir_datos( commT comm, void *datos, int lim)
 
 //Implementacion de funciones estaticas auxiliares
 static void
-buildPathFileName( char *path, char *filename, int pid)
+buildPathFileName( char *path, char *filename, char *serverName)
 {
-	//char cad_pid[100+1];
-
+	
 	path[0] = 0;
 	strcat( path, PATH );
 	strcat( path, filename );
-	/*
-	if( pid > 0 )
-	{
-		sprintf(cad_pid, "%d", pid);
-		strcat( path, cad_pid);
+	
+	if( serverName != NULL )
+	{		
+		strcat( path, serverName);
 	}
-	*/
+	
 	//printf("buildPathFIleName(): path=[%s]\n", path);//DEBUG
 	return;
 }

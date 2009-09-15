@@ -52,6 +52,7 @@
 //Definiciones para message queue
 #define MSGSZ MAP_SIZE
 #define QUEUE_KEY 0xBEEF0
+#define LOG_QUEUE_KEY 0xBEE00
 
 //Flags usados para esperar a que llegue un signal
 int alarmFlag = FALSE;
@@ -102,7 +103,12 @@ commT
 iniciarComm( int tipoComm, char *nombreServidor )
 {		
 	commT comm;	
-	key_t key = QUEUE_KEY;
+	key_t key;
+	
+	if( strcmp(MAP_SERVER_NAME, nombreServidor) == 0 )
+		key = QUEUE_KEY;
+	else
+		key = LOG_QUEUE_KEY;
 
 	if( ( comm = malloc( sizeof( struct comm) ) ) == NULL )
 		return NULL;

@@ -44,11 +44,14 @@
 #define MAP_WINDOW_WIDTH  42
 
 #define LOG_WINDOW_HEIGHT 39
-#define LOG_WINDOW_WIDTH  38
+#define LOG_WINDOW_WIDTH  38+30
 
 //Defines minimum size for term screen.(IBM-VGA)
 #define	MIN_ROWS	MAP_WINDOW_HEIGHT
 #define	MIN_COLS 	MAP_WINDOW_WIDTH+LOG_WINDOW_WIDTH
+
+//Heart beat time for the traffic manager ( microseconds )
+#define TIMESTEP 500000 
 
 //-------------------------------------------------------------------------
 
