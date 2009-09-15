@@ -50,11 +50,11 @@ void setTimer(void);
 void setSignals(void);
 void setTimerSignal(void);
 void handler(int signum);
-static void sigIntHandler(int sig); 
+static void sigIntHandler(int sig);
 static void procesosZombies(int sig);
 
-//Main process that calculates traffic evolution 
-//and send modifications to the map 
+//Main process that calculates traffic evolution
+//and send modifications to the map
 void trafficManager(void);
 void mockTrafficManager(void);
 void mockCalculateChanges(int signum);
@@ -65,7 +65,7 @@ main(void)
 {
 	int pid;
 	struct mapCDT *mymap;
-	
+
 	//Initialize all system resources
 	initializeSystem();
 
@@ -75,19 +75,20 @@ main(void)
 			fatal("Error fork !!\n");
 			break;
 
-		case 0: // child		
+
+		case 0: // child
 			trafficManager();
-			//mockTrafficManager();							
+			//mockTrafficManager();
 			exit(0);
 			break;
-		
-		default: // father 				
-			//Manage signals SIGINT, SIGCHLD, SIGTERM			
+
+		default: // father
+			//Manage signals SIGINT, SIGCHLD, SIGTERM
 			//signal(SIGINT, siginthandler);
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
-	}	
-		
+	}
+
 	switch ( pid = fork() )
 	{
 		case -1:
@@ -95,53 +96,53 @@ main(void)
 			break;
 
 		case 0: // child
-				
+
 				while (1)
 				{
 					char *mylog;
 					if( getLogUpdates( &mylog ) == 0)
-						{							
+						{
 							//updateScreenLog( events[i] );
 							updateScreenLog( mylog );
-							free(mylog);			
+							free(mylog);
 							update_display();
 						}
 				}
-				exit(0);			
-		default: // father 				
-			//Manage signals SIGINT, SIGCHLD, SIGTERM			
+				exit(0);
+		default: // father
+			//Manage signals SIGINT, SIGCHLD, SIGTERM
 			//signal(SIGINT, siginthandler);
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
-	}	
+	}
 
 	//char *mylog;
 	while (1)
 	{
-		//printf("Waiting for changes ...\n");//DEBUG		
+		//printf("Waiting for changes ...\n");//DEBUG
 		if( getMapUpdates( &mymap ) == 0)
 		{
 			//printf("==> valor = %d\n", citySystem.map->matrix[2][2]);//DEBUG
 			updateScreenMap( mymap );
-			//updateScreenLog( events[i] );			
-			free(mymap);			
-			update_display();			
+			//updateScreenLog( events[i] );
+			free(mymap);
+			update_display();
 			//emulate multiple messages for the log window
 			//i = (i+1) %12;
 		}
 		/*
 		if( getLogUpdates( &mylog ) == 0)
-		{			
+		{
 			//updateScreenLog( events[i] );
 			updateScreenLog( mylog );
-			free(mylog);			
+			free(mylog);
 			update_display();
 		}
 		*/
    	}
 
-	
-	closeSystem( );	
+
+	closeSystem( );
 	return 0;
 }
 
@@ -149,70 +150,70 @@ void
 mockTrafficManager(void)
 {
 	getNewSession(CLIENT);
-	
+
 	struct mapCDT map2;
 	coorT *route, *route2, *route3;
-	
-	int i=0;				
+
+	int i=0;
 	route = malloc(sizeof(coorT)*12);
-	route2 = malloc(sizeof(coorT)*12);				
+	route2 = malloc(sizeof(coorT)*12);
 	route3 = malloc(sizeof(coorT)*12);
-					
+
 	buildMap( &map2 );
 	getRoundRoute(5,5,&route);
 	getRoundRoute(11,11,&route2);
 	getRoundRoute(14,2,&route3);
-	
+
 	//Simulates a log window constant update
 	char *events[12];
 	createEvents(events, 12);
-		
+
 	while( 1 )
-	{	
-		sleep(1);					
+	{
+		sleep(1);
 		modifySemaphores( &map2 );
-		
+
 		//Simulate a bus in a round trip
-		map2.state[route[i].y][route[i].x] = 1;					
+		map2.state[route[i].y][route[i].x] = 1;
 		map2.state[route2[(i+1)%12].y][route2[(i+1)%12].x] = 1;
 		map2.state[route3[(i+6)%12].y][route3[(i+6)%12].x] = 1;
-		
+
 		//Send changes on the map to the main process
 		putMapUpdates( &map2 );
-		
-		//clean last bus position					
+
+		//clean last bus position
 		map2.state[route[i].y][route[i].x] = 0;
 		map2.state[route2[(i+1)%12].y][route2[(i+1)%12].x] = 0;
 		map2.state[route3[(i+6)%12].y][route3[(i+6)%12].x] = 0;
-				
+
 		//Send changes for the log
-		putLogUpdates( events[i] );		
-		
+		putLogUpdates( events[i] );
+
 		//To walk only through the simulation arrays
 		//for RoundRobinRoutes and Log messages
-		i= (i+1)%12;		
+		i= (i+1)%12;
 	}
-	
+
 	//free resources for messages emulated
 	freeEvents(events, 12);
-	
+
 	free(route);
 	free(route2);
-	
-	
+
+
 	/*
 	srand( (unsigned) time(NULL) );
 	setTimer();
 	signal(SIGALRM, mockCalculateChanges );
 	//setTimerSignal();
 	while(1)
-	{		
+	{
 		pause();
 		//setTimerSignal();
 		//signal(SIGALRM, mockCalculateChanges );
 	}
 	*/
-	
+
 	closeSession();
 	return;
 }
@@ -222,55 +223,55 @@ mockCalculateChanges(int signum)
 {
 	struct mapCDT map2;
 		coorT *route, *route2, *route3;
-		
-						
+
+
 		route = malloc(sizeof(coorT)*12);
-		route2 = malloc(sizeof(coorT)*12);				
+		route2 = malloc(sizeof(coorT)*12);
 		route3 = malloc(sizeof(coorT)*12);
-						
+
 		buildMap( &map2 );
 		getRoundRoute(5,5,&route);
 		getRoundRoute(11,11,&route2);
 		getRoundRoute(14,2,&route3);
-		
+
 		//Simulates a log window constant update
 		char *events[12];
 		createEvents(events, 12);
-			
-							
+
+
 			modifySemaphores( &map2 );
-			
+
 			//Simulate a bus in a round trip
-			map2.state[route[timerCount].y][route[timerCount].x] = 1;					
+			map2.state[route[timerCount].y][route[timerCount].x] = 1;
 			map2.state[route2[(timerCount+1)%12].y][route2[(timerCount+1)%12].x] = 1;
 			map2.state[route3[(timerCount+6)%12].y][route3[(timerCount+6)%12].x] = 1;
-			
+
 			//Send changes on the map to the main process
 			putMapUpdates( &map2 );
-			
-			//clean last bus position					
+
+			//clean last bus position
 			map2.state[route[timerCount].y][route[timerCount].x] = 0;
 			map2.state[route2[(timerCount+1)%12].y][route2[(timerCount+1)%12].x] = 0;
 			map2.state[route3[(timerCount+6)%12].y][route3[(timerCount+6)%12].x] = 0;
-					
+
 			//Send changes for the log
-			putLogUpdates( events[timerCount] );		
-			
+			putLogUpdates( events[timerCount] );
+
 			//To walk only through the simulation arrays
 			//for RoundRobinRoutes and Log messages
-			timerCount= (timerCount+1)%12;		
-		
-		
+			timerCount= (timerCount+1)%12;
+
+
 		//free resources for messages emulated
 		freeEvents(events, 12);
-		
+
 		free(route);
 		free(route2);
 		free(route3);
 		return;
 }
 
-void 
+void
 trafficManager(void)
 {
 
@@ -278,7 +279,7 @@ trafficManager(void)
 	int cantlinea, change, i,time=0;
 	DIR *d;
 	struct dirent *dir;
-	
+
 	//memset(&map,0xff, sizeof(struct mapCDT));
 	buildMap(&map);
 	newLights();
@@ -294,31 +295,33 @@ trafficManager(void)
 			lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 			 if (lineas==NULL)
 	     		fatal("Error (re)allocating memory to save the line list");
-			    
+
 	    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
-	    }	
+	    }
 	    closedir(d);
 	}
 	*/
-	
+
+
 	while( 1 )
 	{
 		sleep(1);
 		time++;
 		change  = 1;
 		changeSemaforo(  time );
-		
+
 		/*while(change != 0)
+
 		{
 			change = 0;
 			for(i= 0; i < cantlinea ; ++i)
 				if (updateLinea(lineas[i], time) == 1)
 					change = 1;
-		}	
+		}
 		*/
 		putMapUpdates(&map);
-	}	
-	
+	}
+
 	return;
 }
 
@@ -346,28 +349,28 @@ initializeSystem( void )
 	return 0;
 }
 
-void 
+void
 getRoundRoute( int y, int x , coorT **route)
 {
-	int dir, i, k;	
-		
-	coorT aux[]={{-1,0},{0,1},{1,0},{0,-1}};	
-	k=0;	
+	int dir, i, k;
+
+	coorT aux[]={{-1,0},{0,1},{1,0},{0,-1}};
+	k=0;
 	for( dir=0 ; dir<4 ; dir++ )
-	{		
+	{
 		for( i=0; i<3; i++ )
 		{
 			(*route)[k].x =x;
 			(*route)[k].y =y;
 			y += aux[dir].y;
-			x += aux[dir].x;			
-			k++;			
+			x += aux[dir].x;
+			k++;
 		}
-	}		
+	}
 	return;
 }
 
-void 
+void
 createEvents(char *events[], int dim)
 {
 	int i, k;
@@ -387,9 +390,9 @@ createEvents(char *events[], int dim)
 					"Colectivo 5, linea 92, llego a la parada 4. Nadie sube.",
 					"Colectivo 4, linea 47, sale de parada inicial"
 					};
-	
+
 	cantStrings = sizeof(strings)/sizeof(strings[0]);
-	
+
 	for( i=0, k=0 ; i< dim ; i++)
 	{
 		events[i] = strdup(strings[k]);
@@ -398,7 +401,7 @@ createEvents(char *events[], int dim)
 	return;
 }
 
-void 
+void
 freeEvents(char *events[], int dim)
 {
 	int i;
@@ -423,7 +426,7 @@ modifySemaphores( struct mapCDT *map)
 		map->state[2][2] = VERDEVERTICALVACIO;
 	else
 		map->state[2][2] = ROJOVERTICALVACIO;
-	
+
 	if( map->state[14][11] == ROJOVERTICALVACIO)
 		map->state[14][11] = VERDEVERTICALVACIO;
 	else
@@ -433,7 +436,7 @@ modifySemaphores( struct mapCDT *map)
 		map->state[2][11] = VERDEVERTICALVACIO;
 	else
 		map->state[2][11] = ROJOVERTICALVACIO;
-	
+
 	if( map->state[8][8] == ROJOVERTICALVACIO)
 		map->state[8][8] = VERDEVERTICALVACIO;
 	else
@@ -441,7 +444,7 @@ modifySemaphores( struct mapCDT *map)
 	return;
 }
 
-void 
+void
 updateScreenLog(char *eventString)
 {
 	char *prompt = "=>";
@@ -451,12 +454,12 @@ updateScreenLog(char *eventString)
 		color_set(4, NULL);
 	else
 		wbkgdset(citySystem.logWindow, ' ' | A_BOLD | COLOR_PAIR(6));//black,black//color_set(4, NULL);
-	
+
 	wprintw(citySystem.logWindow, "%s %s\n", prompt, eventString);
-	
+
 	//Get back the default settings
-	wcolor_set(citySystem.logWindow, 1, NULL);			
-	wattron(citySystem.logWindow, A_BOLD);	
+	wcolor_set(citySystem.logWindow, 1, NULL);
+	wattron(citySystem.logWindow, A_BOLD);
 	wbkgdset(citySystem.logWindow, ' ' | A_BOLD | COLOR_PAIR(1));//Verifico que el background se setee bien
 	return;
 }
@@ -511,10 +514,10 @@ updateScreenMap( struct mapCDT *map )
 					mvwaddch(citySystem.mapWindow, i*2+1, j*2, ' ');
 				}
 				//always put the map status mark on the lower right char
-				updateStatus( i*2+1, j*2+1, map->state[i][j] );				
+				updateStatus( i*2+1, j*2+1, map->state[i][j] );
 				//mvwaddch(citySystem.mapWindow, i*2+1, j*2+1, 'O');
 			}
-			
+
 			//draw at the edge of the map, vertical direction
 			//print a char that represents a block
 			wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(7));
@@ -530,9 +533,9 @@ updateScreenMap( struct mapCDT *map )
 				//print a block
 				wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(7));
 				mvwaddch(citySystem.mapWindow, i*2+1, j*2, ' ');
-			}	
+			}
 	}
-	//draw at the edge of the map, horizontal direction	
+	//draw at the edge of the map, horizontal direction
 	for( j=0 ; j<=2*MAXX ; j++ )
 	{
 		if( j%6 == 5 )
@@ -541,14 +544,14 @@ updateScreenMap( struct mapCDT *map )
 			wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(7));
 
 		mvwaddch(citySystem.mapWindow, i*2, j, ' ');
-	}	
+	}
 	return;
 }
 
 void
 updateStatus( int y, int x, int status)
-{	
-	//VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3, 
+{
+	//VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3,
 	//ROJOVERTICALVACIO = 4, ROJOVERTICALLENO =5,  PARADAVACIO = 6, PARADASLLENO = 7
 	switch( status )
 	{
@@ -597,7 +600,7 @@ updateStatus( int y, int x, int status)
 							mvwaddch(citySystem.mapWindow, y-1, x, 'P');
 						break;
 	case PARADASLLENO:	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(4));
-						mvwaddch(citySystem.mapWindow, y, x, ' ');						
+						mvwaddch(citySystem.mapWindow, y, x, ' ');
 						wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(13));
 						if( x == 5 || x == 11 || x == 17 || x == 23 || x == 29 )
 							mvwaddch(citySystem.mapWindow, y, x-1, 'P');
@@ -614,9 +617,9 @@ void
 buildMap( struct mapCDT *map)
 {
 	int i,j;
-	
+
 	memset(map->state,0xff, sizeof(int)*MAXX*MAXY);
-		
+
 	for( i=0 ; i<MAXY ; i++ )
 		for( j=0 ; j<MAXX ; j++ )
 			if( isOneStreet(i,j) )
@@ -626,15 +629,17 @@ buildMap( struct mapCDT *map)
 	map->state[5][2] = VERDEVERTICALVACIO;
 	map->state[2][2] = ROJOVERTICALVACIO;
 	*/
-	map->state[7][8] = PARADASLLENO;	
+	/*
+	map->state[7][8] = PARADASLLENO;
 	map->state[14][15] = PARADASLLENO;
 	map->state[5][13] = PARADASLLENO;
 	map->state[1][2] = PARADASLLENO;
-	
+
 	map->state[14][0] = PARADAVACIO;
 	map->state[8][1] = PARADAVACIO;
 	map->state[11][1] = PARADAVACIO;
 	map->state[2][15] = PARADAVACIO;
+	*/
 	return;
 }
 
@@ -649,13 +654,13 @@ isOneStreet(int y, int x)
 	return FALSE;
 }
 
-void 
-GetTermSize(int * rows, int * cols) 
+void
+GetTermSize(int * rows, int * cols)
 {
     struct winsize ws;
-    //Get terminal size  
-    if ( ioctl(0, TIOCGWINSZ, &ws) < 0 ) 
-        fatal("Couldn't get window size");    
+    //Get terminal size
+    if ( ioctl(0, TIOCGWINSZ, &ws) < 0 )
+        fatal("Couldn't get window size");
     *rows = ws.ws_row;
     *cols = ws.ws_col;
     return;
@@ -665,9 +670,10 @@ void
 screen_init(void)
 {
 	int rows, cols;
-	
+
 	if( (citySystem.mainWindow = initscr()) == NULL )
 		fatal("ERROR while initializing ncurses\n");
+	scrollok(citySystem.mainWindow, FALSE);
 	keypad( stdscr, TRUE );
 	nonl();
 	noecho();
@@ -692,65 +698,65 @@ screen_init(void)
 	   	init_pair(12, COLOR_WHITE,   COLOR_MAGENTA);
 	   	init_pair(13, COLOR_CYAN,   COLOR_BLACK);
 	}
-	
+
    	nodelay(citySystem.mainWindow, TRUE);
-   	
+
    	//Check if term size is not enough for the map
    	GetTermSize(&rows,&cols);
    	if( rows < MIN_ROWS || cols < MIN_COLS )
    		resizeterm(MIN_ROWS, MIN_COLS);
-   	
+
    	//GENERATE MAP WINDOW AND LOG WINDOW
    	//Frame for Map Window
-   	citySystem.mapWindowFrame = newwin(MAP_WINDOW_HEIGHT, MAP_WINDOW_WIDTH, ORIGIN_Y, ORIGIN_X);   	
+   	citySystem.mapWindowFrame = newwin(MAP_WINDOW_HEIGHT, MAP_WINDOW_WIDTH, ORIGIN_Y, ORIGIN_X);
    	wcolor_set(citySystem.mapWindowFrame, 1, NULL); //Color pair to be used in the city map
    	wattron(citySystem.mapWindowFrame, A_BOLD);	//Make Colors stronger
    	wbkgdset(citySystem.mapWindowFrame, ' ' | A_BOLD | COLOR_PAIR(1));//Check for background to be set correctly
    	wclear(citySystem.mapWindowFrame);//Start with a clean window
    	box(citySystem.mapWindowFrame, ACS_VLINE, ACS_HLINE);//Draw a box
    	mvwaddstr(citySystem.mapWindowFrame, 0,2, " MAPA ");
-   	
+
    	//Window for the map itself
    	citySystem.mapWindow = derwin(citySystem.mapWindowFrame, MAP_WINDOW_HEIGHT-2, MAP_WINDOW_WIDTH-3, 2, 3);//Ventana derivada de la anterior
-   	wcolor_set(citySystem.mapWindow, 1, NULL);			
-   	wattron(citySystem.mapWindow, A_BOLD);	
+   	wcolor_set(citySystem.mapWindow, 1, NULL);
+   	wattron(citySystem.mapWindow, A_BOLD);
    	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(1));//Verifico que el background se setee bien
    	wclear(citySystem.mapWindow);//Start with a clean window
-   	scrollok(citySystem.mapWindow, TRUE);
-   	
+   	scrollok(citySystem.mapWindow, FALSE);
+
    	//Frame for Log Window
    	//citySystem.logWindowFrame = newwin(LOG_WINDOW_HEIGHT, LOG_WINDOW_WIDTH, ORIGIN_Y, ORIGIN_X+MAP_WINDOW_WIDTH);
-   	citySystem.logWindowFrame = newwin(0, 0, ORIGIN_Y, ORIGIN_X+MAP_WINDOW_WIDTH);
+   	citySystem.logWindowFrame = newwin(MAP_WINDOW_HEIGHT, 0, ORIGIN_Y, ORIGIN_X+MAP_WINDOW_WIDTH);
    	wcolor_set(citySystem.logWindowFrame, 1, NULL); //Color pair to be used in the city map
    	wattron(citySystem.logWindowFrame, A_BOLD);	//Make Colors stronger
    	wbkgdset(citySystem.logWindowFrame, ' ' | A_BOLD | COLOR_PAIR(1));//Check for background to be set correctly
    	wclear(citySystem.logWindowFrame);//Start with a clean window
    	box(citySystem.logWindowFrame, ACS_VLINE, ACS_HLINE);//Draw a box
    	mvwaddstr(citySystem.logWindowFrame, 0,2, " LOG ");
-   	
+
    	//Window for the log console
    	citySystem.logWindow = derwin(citySystem.logWindowFrame, 0, 0, 2, 3);//Ventana derivada de la anterior
-   	wcolor_set(citySystem.logWindow, 1, NULL);			
-   	wattron(citySystem.logWindow, A_BOLD);	
+   	wcolor_set(citySystem.logWindow, 1, NULL);
+   	wattron(citySystem.logWindow, A_BOLD);
    	wbkgdset(citySystem.logWindow, ' ' | A_BOLD | COLOR_PAIR(1));//Verifico que el background se setee bien
    	wclear(citySystem.logWindow);//Start with a clean window
-   	scrollok(citySystem.logWindow, TRUE); 	
-   	   	
+   	scrollok(citySystem.logWindow, TRUE);
+
    	refresh();
    	return;
 }
 
 static void
-update_display(void){	
+update_display(void){
   	box(citySystem.mapWindowFrame, ACS_VLINE, ACS_HLINE);
-  	mvwaddstr(citySystem.mapWindowFrame, 0,2, " MAPA ");	   	
+  	mvwaddstr(citySystem.mapWindowFrame, 0,2, " MAPA ");
   	wrefresh(citySystem.mapWindowFrame);
   	wrefresh(citySystem.mapWindow);
   	box(citySystem.logWindowFrame, ACS_VLINE, ACS_HLINE);
-  	mvwaddstr(citySystem.logWindowFrame, 0,2, " LOG ");	   	
+  	mvwaddstr(citySystem.logWindowFrame, 0,2, " LOG ");
   	wrefresh(citySystem.logWindowFrame);
-  	wrefresh(citySystem.logWindow);  	
-  	
+  	wrefresh(citySystem.logWindow);
+
   	return;
 }
 
@@ -763,90 +769,90 @@ void screen_end(void) {
 }
 
 
-void 
-setTimer(void) 
+void
+setTimer(void)
 {
 	struct itimerval it;
-	//Clear itimerval struct members 
+	//Clear itimerval struct members
 	timerclear(&it.it_interval);
 	timerclear(&it.it_value);
-	  
-	//Set timer  
+
+	//Set timer
 	it.it_interval.tv_usec = TIMESTEP;
 	it.it_value.tv_usec    = TIMESTEP;
-	
+
 	it.it_interval.tv_sec = 0;
 	it.it_value.tv_sec    = 0;
-	
+
 	setitimer(ITIMER_REAL, &it, NULL);
 	return;
 }
 
-//Sets up signal handlers we need 
-void 
-setSignals(void) 
+//Sets up signal handlers we need
+void
+setSignals(void)
 {
     struct sigaction sa;
-    
-    //Fill in sigaction struct 
+
+    //Fill in sigaction struct
     sa.sa_handler = handler;
     sa.sa_flags   = 0;
     sigemptyset(&sa.sa_mask);
-    
-    //Set signal handlers 
+
+    //Set signal handlers
     sigaction(SIGCHLD, &sa, NULL);
     sigaction(SIGTERM, &sa, NULL);
     sigaction(SIGINT, &sa, NULL);
     //sigaction(SIGALRM, &sa, NULL);
-    
-    //Ignore SIGTSTP  
+
+    //Ignore SIGTSTP
     sa.sa_handler = SIG_IGN;
     sigaction(SIGTSTP, &sa, NULL);
 }
 
-void 
-setTimerSignal(void) 
+void
+setTimerSignal(void)
 {
     struct sigaction sa;
-    
-    //Fill in sigaction struct 
+
+    //Fill in sigaction struct
     sa.sa_handler = mockCalculateChanges;
     sa.sa_flags   = 0;
     sigemptyset(&sa.sa_mask);
-    
-    //Set signal handlers 
+
+    //Set signal handlers
     sigaction(SIGALRM, &sa, NULL);
     return;
 }
 
-//Signal generic handler 
-void 
-handler(int signum) 
-{   
-    switch ( signum ) 
+//Signal generic handler
+void
+handler(int signum)
+{
+    switch ( signum )
     {
-    	case SIGALRM:	//mockCalculateChanges();      
-		      			return;		      			
-    	case SIGTERM:    		
+    	case SIGALRM:	//mockCalculateChanges();
+		      			return;
+    	case SIGTERM:
     	case SIGINT:	sigIntHandler(SIGINT);
     					break;
-    					
+
     	case SIGCHLD: 	procesosZombies(SIGCHLD);
     					break;
-    					
+
     	default:		break;
     }
     return;
 }
 
-static void 
-sigIntHandler(int sig) 
-{		
-	signal( SIGCHLD, procesosZombies );	
+static void
+sigIntHandler(int sig)
+{
+	signal( SIGCHLD, procesosZombies );
 	closeSystem();
 	printf("\tCityMap is down... bye !!\n");
 	exit(EXIT_SUCCESS);
-} 
+}
 
 static void
 procesosZombies(int sig)
