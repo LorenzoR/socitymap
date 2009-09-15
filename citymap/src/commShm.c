@@ -21,8 +21,13 @@
 #define SEMKEY_CLIENT (key_t)0x40
 #define SEMKEY_SERVER (key_t)0x50
 
+#define SEMKEY_LOG_CLIENT (key_t)0x80
+#define SEMKEY_LOG_SERVER (key_t)0x90
+
+
 //Definiciones para inicializar Shared memory
 #define SHMKEY (key_t)0x100
+#define SHMKEY_LOG (key_t)0x200
 #define MAX_SHM MAP_SIZE
 
 //Estructura a ser intercambiada en el shared memory
@@ -67,18 +72,44 @@ iniciarComm( int tipoComm, char *nombreServidor )
 	comm->mesgPtr = NULL;
 
 	strcpy(comm->nombreServidor, nombreServidor);
-
-	//Incializo Semaforos
-	//Como el cliente es quien inicia la comunicacion, lo pongo en 1
-	comm->semClient = sem_init(SEMKEY_CLIENT, 1);
-	//printf("Se inicializo semaforo cliente\n");//DEBUG
-	comm->semServer = sem_init(SEMKEY_SERVER, 0);
-	//printf("Se inicializo semaforo servidor\n");//DEBUG
-
-	//Inicializo la shared memory
-	if( (comm->mesgPtr = getMem(SHMKEY, sizeof(*(comm->mesgPtr))) ) == NULL )
-		fatal("Error al inicializar memoria compartida\n");
+	/* TO create an UNIQUE KEY for each IPCs based on the well known server name
+	 //"city" .. it can be any valid pathname in the systema(can be our deamon)
+	 	key_t key = ftok(nombreServidor, "include/comm.h", 1);
+	 	if(key == -1)
+	 	{
+	 		free(comm);
+	 		FERROR("Unable to generate a valid key\n", NULL);
+	 	}
+	 	//...and then  sem_init( key, 1) ... 
+	*/
 	
+	if( strcmp(nombreServidor, MAP_SERVER_NAME) == 0 )
+	{
+		//Incializo Semaforos
+		//Como el cliente es quien inicia la comunicacion, lo pongo en 1
+		comm->semClient = sem_init(SEMKEY_CLIENT, 1);
+		//printf("Se inicializo semaforo cliente\n");//DEBUG
+		comm->semServer = sem_init(SEMKEY_SERVER, 0);
+		//printf("Se inicializo semaforo servidor\n");//DEBUG
+	
+		//Inicializo la shared memory
+		if( (comm->mesgPtr = getMem(SHMKEY_LOG, sizeof(*(comm->mesgPtr))) ) == NULL )
+			fatal("Error al inicializar memoria compartida\n");
+	
+	}
+	else
+	{	
+		//Incializo Semaforos
+		//Como el cliente es quien inicia la comunicacion, lo pongo en 1
+		comm->semClient = sem_init(SEMKEY_LOG_CLIENT, 1);
+		//printf("Se inicializo semaforo cliente\n");//DEBUG
+		comm->semServer = sem_init(SEMKEY_LOG_SERVER, 0);
+		//printf("Se inicializo semaforo servidor\n");//DEBUG
+	
+		//Inicializo la shared memory
+		if( (comm->mesgPtr = getMem(SHMKEY_LOG, sizeof(*(comm->mesgPtr))) ) == NULL )
+			fatal("Error al inicializar memoria compartida\n");
+	}
 	//Inicializo la shared mem con valores que indican que no hay datos nuevos
 	comm->mesgPtr->len = 0;
 	comm->mesgPtr->id = -1;

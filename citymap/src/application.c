@@ -8,12 +8,17 @@
 #include <signal.h>
 #include <sys/wait.h>
 #include <sys/ioctl.h>
+#include <sys/time.h>
+#include <time.h>
 #include <errno.h>
 
 #include "application.h"
 
 //Global variable to store applicaton state
 systemT citySystem;
+
+//Global variable to mock traffic manager
+int timerCount;
 
 //Screen ncurses auxiliary functiones
 void screen_init(void);
@@ -41,9 +46,10 @@ void createEvents(char *events[], int dim);
 void freeEvents(char *events[], int dim);
 
 //To manage processes signals
+void setTimer(void);
 void setSignals(void);
-void handler(int signum); 
-
+void setTimerSignal(void);
+void handler(int signum);
 static void sigIntHandler(int sig); 
 static void procesosZombies(int sig);
 
@@ -51,6 +57,7 @@ static void procesosZombies(int sig);
 //and send modifications to the map 
 void trafficManager(void);
 void mockTrafficManager(void);
+void mockCalculateChanges(int signum);
 
 
 int
@@ -81,11 +88,34 @@ main(void)
 			setSignals();
 	}	
 		
-	//Simulates a log window constant update
-	char *events[12];
-	createEvents(events, 12);
-	int i=0;
-	
+	switch ( pid = fork() )
+	{
+		case -1:
+			fatal("Error fork !!\n");
+			break;
+
+		case 0: // child
+				
+				while (1)
+				{
+					char *mylog;
+					if( getLogUpdates( &mylog ) == 0)
+						{							
+							//updateScreenLog( events[i] );
+							updateScreenLog( mylog );
+							free(mylog);			
+							update_display();
+						}
+				}
+				exit(0);			
+		default: // father 				
+			//Manage signals SIGINT, SIGCHLD, SIGTERM			
+			//signal(SIGINT, siginthandler);
+			//signal(SIGCHLD, procesosZombies);
+			setSignals();
+	}	
+
+	//char *mylog;
 	while (1)
 	{
 		//printf("Waiting for changes ...\n");//DEBUG		
@@ -93,15 +123,23 @@ main(void)
 		{
 			//printf("==> valor = %d\n", citySystem.map->matrix[2][2]);//DEBUG
 			updateScreenMap( mymap );
-			updateScreenLog( events[i] );			
+			//updateScreenLog( events[i] );			
 			free(mymap);			
 			update_display();			
 			//emulate multiple messages for the log window
-			i = (i+1) %12;
+			//i = (i+1) %12;
 		}
+		/*
+		if( getLogUpdates( &mylog ) == 0)
+		{			
+			//updateScreenLog( events[i] );
+			updateScreenLog( mylog );
+			free(mylog);			
+			update_display();
+		}
+		*/
    	}
-	//free resources for messages emulated
-	freeEvents(events, 12);
+
 	
 	closeSystem( );	
 	return 0;
@@ -111,6 +149,7 @@ void
 mockTrafficManager(void)
 {
 	getNewSession(CLIENT);
+	
 	struct mapCDT map2;
 	coorT *route, *route2, *route3;
 	
@@ -123,6 +162,11 @@ mockTrafficManager(void)
 	getRoundRoute(5,5,&route);
 	getRoundRoute(11,11,&route2);
 	getRoundRoute(14,2,&route3);
+	
+	//Simulates a log window constant update
+	char *events[12];
+	createEvents(events, 12);
+		
 	while( 1 )
 	{	
 		sleep(1);					
@@ -140,16 +184,90 @@ mockTrafficManager(void)
 		map2.state[route[i].y][route[i].x] = 0;
 		map2.state[route2[(i+1)%12].y][route2[(i+1)%12].x] = 0;
 		map2.state[route3[(i+6)%12].y][route3[(i+6)%12].x] = 0;
+				
+		//Send changes for the log
+		putLogUpdates( events[i] );		
 		
 		//To walk only through the simulation arrays
 		//for RoundRobinRoutes and Log messages
-		i= (i+1)%12;				
-	}	
+		i= (i+1)%12;		
+	}
+	
+	//free resources for messages emulated
+	freeEvents(events, 12);
 	
 	free(route);
 	free(route2);
+	
+	
+	/*
+	srand( (unsigned) time(NULL) );
+	setTimer();
+	signal(SIGALRM, mockCalculateChanges );
+	//setTimerSignal();
+	while(1)
+	{		
+		pause();
+		//setTimerSignal();
+		//signal(SIGALRM, mockCalculateChanges );
+	}
+	*/
+	
 	closeSession();
 	return;
+}
+
+void
+mockCalculateChanges(int signum)
+{
+	struct mapCDT map2;
+		coorT *route, *route2, *route3;
+		
+						
+		route = malloc(sizeof(coorT)*12);
+		route2 = malloc(sizeof(coorT)*12);				
+		route3 = malloc(sizeof(coorT)*12);
+						
+		buildMap( &map2 );
+		getRoundRoute(5,5,&route);
+		getRoundRoute(11,11,&route2);
+		getRoundRoute(14,2,&route3);
+		
+		//Simulates a log window constant update
+		char *events[12];
+		createEvents(events, 12);
+			
+							
+			modifySemaphores( &map2 );
+			
+			//Simulate a bus in a round trip
+			map2.state[route[timerCount].y][route[timerCount].x] = 1;					
+			map2.state[route2[(timerCount+1)%12].y][route2[(timerCount+1)%12].x] = 1;
+			map2.state[route3[(timerCount+6)%12].y][route3[(timerCount+6)%12].x] = 1;
+			
+			//Send changes on the map to the main process
+			putMapUpdates( &map2 );
+			
+			//clean last bus position					
+			map2.state[route[timerCount].y][route[timerCount].x] = 0;
+			map2.state[route2[(timerCount+1)%12].y][route2[(timerCount+1)%12].x] = 0;
+			map2.state[route3[(timerCount+6)%12].y][route3[(timerCount+6)%12].x] = 0;
+					
+			//Send changes for the log
+			putLogUpdates( events[timerCount] );		
+			
+			//To walk only through the simulation arrays
+			//for RoundRobinRoutes and Log messages
+			timerCount= (timerCount+1)%12;		
+		
+		
+		//free resources for messages emulated
+		freeEvents(events, 12);
+		
+		free(route);
+		free(route2);
+		free(route3);
+		return;
 }
 
 void 
@@ -644,6 +762,26 @@ void screen_end(void) {
 	endwin();
 }
 
+
+void 
+setTimer(void) 
+{
+	struct itimerval it;
+	//Clear itimerval struct members 
+	timerclear(&it.it_interval);
+	timerclear(&it.it_value);
+	  
+	//Set timer  
+	it.it_interval.tv_usec = TIMESTEP;
+	it.it_value.tv_usec    = TIMESTEP;
+	
+	it.it_interval.tv_sec = 0;
+	it.it_value.tv_sec    = 0;
+	
+	setitimer(ITIMER_REAL, &it, NULL);
+	return;
+}
+
 //Sets up signal handlers we need 
 void 
 setSignals(void) 
@@ -659,11 +797,26 @@ setSignals(void)
     sigaction(SIGCHLD, &sa, NULL);
     sigaction(SIGTERM, &sa, NULL);
     sigaction(SIGINT, &sa, NULL);
-    sigaction(SIGALRM, &sa, NULL);
+    //sigaction(SIGALRM, &sa, NULL);
     
     //Ignore SIGTSTP  
     sa.sa_handler = SIG_IGN;
     sigaction(SIGTSTP, &sa, NULL);
+}
+
+void 
+setTimerSignal(void) 
+{
+    struct sigaction sa;
+    
+    //Fill in sigaction struct 
+    sa.sa_handler = mockCalculateChanges;
+    sa.sa_flags   = 0;
+    sigemptyset(&sa.sa_mask);
+    
+    //Set signal handlers 
+    sigaction(SIGALRM, &sa, NULL);
+    return;
 }
 
 //Signal generic handler 
@@ -672,9 +825,8 @@ handler(int signum)
 {   
     switch ( signum ) 
     {
-    	case SIGALRM:	//In case we use timers      
-		      			return;
-		      			
+    	case SIGALRM:	//mockCalculateChanges();      
+		      			return;		      			
     	case SIGTERM:    		
     	case SIGINT:	sigIntHandler(SIGINT);
     					break;

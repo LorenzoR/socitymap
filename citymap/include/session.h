@@ -12,15 +12,14 @@
 #include "comm.h"
 
 #define MAX_BUFFER_SIZE 4*MAXX*MAXY
-/*
-typedef struct{
-	char buf[MAX_BUFFER_SIZE];
-	commT comm;
-}sessionT;
-*/
+
 int getNewSession(int tipoComm );
+int closeSession( void );
+
 int getMapUpdates( struct mapCDT **map );
 int putMapUpdates( struct mapCDT *map );
-int closeSession( void );
+
+int getLogUpdates( char **logEntry );
+int putLogUpdates( char *logEntry );
 
 #endif /* SESSION_FIFO_H_ */

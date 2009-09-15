@@ -1,8 +1,8 @@
 //Definiciones generales
 
 
-#define SERVER_NAME "trafficServer"
-
+#define MAP_SERVER_NAME "MapServer"
+#define LOG_SERVER_NAME "LogServer"
 
 enum{CLIENT, SERVER};
 
