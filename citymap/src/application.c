@@ -324,7 +324,7 @@ trafficManager(void)
 		/*Con esto se generan personas*/
 
 
-		newpeople = randoint(1 , MAXRANDPEOPLE );
+		newpeople = randoint(0 , MAXRANDPEOPLE );
 
 		for (i =0 ; i  <  newpeople ;++i)
 		{

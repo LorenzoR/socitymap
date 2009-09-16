@@ -69,11 +69,14 @@ void busGeneratePeople(listADT bus){
 static void getNewRoute(colectivoADT bus, listADT list)
 {
 	int i = 0;
+	//fprintf(log, "el colectivo %d esta en %d, %d\n" , list->bus->name, list->bus->pos.x , list->bus->pos.y);
+	//fprintf(log, "la proxima ruta es %d, %d\n" , list->bus->NextRoute.x , list->bus->NextRoute.y);
+
 	while (i< list->cantRoute)
 	{
-		//fprintf(log, "la pos del colectivo es %d, %d\n", bus->pos.x , bus->pos.y);
-		//fprintf(log, "el nodo es %d, %d\n", list->route[i].x, list->route[i].y);
-		//fprintf(log, "el nodo sig es %d, %d\n", list->route[i+1].x, list->route[i+1].y);
+	//	fprintf(log, "la pos del colectivo es %d, %d\n", bus->pos.x , bus->pos.y);
+	//	fprintf(log, "el nodo es %d, %d\n", list->route[i].x, list->route[i].y);
+	//	fprintf(log, "el nodo sig es %d, %d\n", list->route[i+1].x, list->route[i+1].y);
 
 		if (bus->pos.x == list->route[i].x && bus->pos.y == list->route[i].y)
 		{
@@ -105,7 +108,7 @@ static void getNewRoute(colectivoADT bus, listADT list)
 	}
 	//fprintf(log, "la pos del colectivo es %d, %d\n", bus->pos.x , bus->pos.y);
 	//fprintf(log, "el nuevo destino del colectivo es %d, %d\n", bus->NextRoute.x, bus->NextRoute.y);
-	//fprintf(log, "la dir del colectivo es %d", bus->dir);
+	//fprintf(log, "la dir del colectivo es %d\n", bus->dir);
 
 
 
@@ -123,12 +126,16 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 			fprintf(log, "Se bajan personas del micro %d\n" , bus->name);
 			removepeople(&(bus->people), bus->pos);
 			bus->lastMovedOn = time;
+			fprintf(log, "se bajo gente del micro %d\n" , bus->name);
+
 		}
 		if (hastostop(list->paradas ,bus->pos))
 		{
 			fprintf(log, "va a subir gente al micro %d\n" , bus->name);
 			movepeople(list->paradas ,bus->pos , &(bus->people));
 			bus->lastMovedOn = time;
+			fprintf(log, "subio la gente al micro %d\n" , bus->name);
+
 		}
 	}
 	if(time != bus->lastMovedOn)
@@ -145,8 +152,8 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 				pos.y = bus->pos.y;
 				break;
 			case ESTE:
-				pos.x = bus->pos.x;
-				pos.y = bus->pos.y + 1;
+				pos.x = bus->pos.x + 1;
+				pos.y = bus->pos.y;
 				break;
 			case SUR:
 				pos.x = bus->pos.x;
