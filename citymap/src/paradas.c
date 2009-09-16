@@ -104,7 +104,7 @@ void removepeople(peopleADT *list,  coor pos)
 		free(*list);
 		*list = aux;
 	}
-	removepeople (&((*list)->sig), pos) ;
+	removepeople ((list), pos) ;
 
 }
 
@@ -139,24 +139,46 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 
 }
 
-
+static paradaADT getParada(paradaADT paradas, int dest)
+{
+	while(dest > 0)
+	{
+		paradas = paradas->sig;
+		dest--;
+	}
+	return paradas;
+}
 
 void paradaGeneratePeople(paradaADT paradas, int cantParadas)
 {
-	/*int orig , dest;
-	personT aux;
-	if (cantParadas == 1)
+	int orig , dest;
+	peopleADT aux;
+	paradaADT parad;
+
+	if (cantParadas == 1 || cantParadas == 0)
 		return;
+
 	orig = randoint(0, cantParadas);
 	dest = randoint(0, cantParadas);
 	while(orig == dest)
 		dest = randoint(0, cantParadas);
 
-		if (!(aux = malloc(sizeof(struct pesonaT))))
+		if (!(aux = malloc(sizeof(struct peopleT))))
 			fatal("No memory for another person\n");
-		aux->pos.x =
-	insertPerson();
-*/
+	parad = getParada(paradas, dest);
+	aux->pos.x = parad->pos.x;
+	aux->pos.y = parad->pos.y;
+	parad = getParada(paradas, orig);
+	aux->name = peoplename;
+
+	peoplename++;
+	fprintf(log,"se creo la persona %d, esta en la parada x = %d, y = %d\n", aux->name, parad->pos.x, parad->pos.y);
+	aux->sig = parad->people ;
+	parad->people = aux;
+
+	fprintf(log,"viaja hasta la parada en x = %d, y = %d\n", aux->pos.x, aux->pos.y);
+
+
 }
 
 

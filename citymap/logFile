@@ -1,24 +1,201 @@
 Se creo un semaforo en x= 2, y= 2, tiempo de cambio = 2
 Se creo un semaforo en x= 5, y= 5, tiempo de cambio = 1
-el semaforo en x= 5, y= 5, cambio a rojo vertical
+se lee el archivo lineas
+cant de paradas 2
+se crea una parada en la linea lineas
+Se crea una parada en x = 8, y  = 4
+se crea una parada en la linea lineas
+Se crea una parada en x = 8, y  = 10
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+entra al while 
 el semaforo en x= 2, y= 2, cambio a rojo vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 0, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 1, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 0
+Se crea un colectivo en la linea lineas
+Se creo un colectivo 0
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 2, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 1
 el semaforo en x= 2, y= 2, cambio a verde vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 3, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 4, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 2
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 5, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 6, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 3
 el semaforo en x= 2, y= 2, cambio a rojo vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 7, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 8, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 4
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 9, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 10, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 5
+Se crea un colectivo en la linea lineas
+Se creo un colectivo 1
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
 el semaforo en x= 2, y= 2, cambio a verde vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 11, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 12, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 6
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
+va a subir gente al micro 0
+Se sube la gente de la parada en x= 8, y= 10
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 13, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 14, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 7
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
 el semaforo en x= 2, y= 2, cambio a rojo vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 15, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 16, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 8
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 17, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 18, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 9
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
 el semaforo en x= 2, y= 2, cambio a verde vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 19, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 10
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 20, esta en la parada x = 8, y = 4
+viaja hasta la parada en x = 8, y = 10
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 11
+va a subir gente al micro 1
+Se sube la gente de la parada en x= 8, y= 4
 el semaforo en x= 2, y= 2, cambio a rojo vertical
-el semaforo en x= 5, y= 5, cambio a verde vertical
 el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 21, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 22, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 12
+Se crea un colectivo en la linea lineas
+Se creo un colectivo 2
+el semaforo en x= 5, y= 5, cambio a verde vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 23, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+Se termino de generar personas en el segundo 13
+el semaforo en x= 2, y= 2, cambio a verde vertical
+el semaforo en x= 5, y= 5, cambio a rojo vertical
+se crea una persona en la linea 0
+se crea una persona en la linea lineas
+se creo la persona 24, esta en la parada x = 8, y = 10
+viaja hasta la parada en x = 8, y = 4
+se creo la persona en la linea lineas
+se crea una persona en la linea 0
+se crea una persona en la linea l

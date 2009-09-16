@@ -71,6 +71,10 @@ static void getNewRoute(colectivoADT bus, listADT list)
 	int i = 0;
 	while (i< list->cantRoute)
 	{
+		//fprintf(log, "la pos del colectivo es %d, %d\n", bus->pos.x , bus->pos.y);
+		//fprintf(log, "el nodo es %d, %d\n", list->route[i].x, list->route[i].y);
+		//fprintf(log, "el nodo sig es %d, %d\n", list->route[i+1].x, list->route[i+1].y);
+
 		if (bus->pos.x == list->route[i].x && bus->pos.y == list->route[i].y)
 		{
 			if (i+1 == list->cantRoute ) /*estoy en el ultimo vertice*/
@@ -80,8 +84,8 @@ static void getNewRoute(colectivoADT bus, listADT list)
 			}
 			else
 			{
-				bus->NextRoute.x = list->route[i].x;
-				bus->NextRoute.y = list->route[i].y;
+				bus->NextRoute.x = list->route[i+1].x;
+				bus->NextRoute.y = list->route[i+1].y;
 			}
 
 			if(bus->pos.x < bus->NextRoute.x)
@@ -99,6 +103,11 @@ static void getNewRoute(colectivoADT bus, listADT list)
 		}
 		++i;
 	}
+	//fprintf(log, "la pos del colectivo es %d, %d\n", bus->pos.x , bus->pos.y);
+	//fprintf(log, "el nuevo destino del colectivo es %d, %d\n", bus->NextRoute.x, bus->NextRoute.y);
+	//fprintf(log, "la dir del colectivo es %d", bus->dir);
+
+
 
 }
 
@@ -198,6 +207,7 @@ void InsertBus(listADT list, coor pos, int time) {
 		list->bus->lastMovedOn = time;
 		list->bus->name = newname;
 		list->bus->sig =aux;
+		list->bus->people = NULL;
 
 		setState(list->bus->pos , getState(list->bus->pos) + 1); /*pasa de vacio a lleno*/
 		setName(list->bus->pos , list->bus->name);
