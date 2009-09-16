@@ -84,6 +84,10 @@ int haspeopletoleave(peopleADT list,  coor pos)
 {
 	if( list == NULL)
 		return 0;
+
+
+
+
 	if(pos.x == list->pos.x && pos.y == list->pos.y)
 		return 1;
 	return 	haspeopletoleave( list->sig, pos);
@@ -92,8 +96,12 @@ int haspeopletoleave(peopleADT list,  coor pos)
 void removepeople(peopleADT *list,  coor pos)
 {
 	peopleADT aux;
+
 	if ((list) == NULL)
 		return;
+	if((*list) == NULL)
+		return;
+
 	if ((*list)->pos.x == pos.x && (*list)->pos.y == pos.y )
 	{
 		fprintf(log, "Se baja la persona  %d\n" , (*list)->name);
@@ -103,8 +111,14 @@ void removepeople(peopleADT *list,  coor pos)
 		aux = (*list)->sig;
 		free(*list);
 		*list = aux;
+
+		removepeople ((list), pos) ;
+		return;
+
 	}
-	removepeople ((list), pos) ;
+	removepeople (&(*list)->sig, pos) ;
+	return;
+
 
 }
 
@@ -120,6 +134,9 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 		pre = aux;
 		if( *bus == NULL)
 		{
+			fprintf(log, "el colectivo estaba vacio\n" );
+
+
 			*bus = list->people;
 		}
 		else
