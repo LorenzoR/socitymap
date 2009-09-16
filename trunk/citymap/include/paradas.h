@@ -12,5 +12,5 @@ int hastostop(paradaADT list, coor pos);
 int haspeopletoleave(peopleADT list,  coor pos);
 void removepeople(peopleADT *list,  coor pos);
 void  movepeople(paradaADT list,  coor pos, peopleADT * bus);
-
+void paradaGeneratePeople(paradaADT paradas, int cantParadas);
 #endif /*PARADAS_H_*/

@@ -12,6 +12,8 @@
 #include <time.h>
 #include <errno.h>
 
+
+#include "random.h"
 #include "application.h"
 
 //Global variable to store applicaton state
@@ -276,9 +278,13 @@ trafficManager(void)
 {
 
 	lineaADT * lineas = NULL;
-	int cantlinea = 0, change, i,time=0;
+	int cantlinea = 0, change, i,time=0, newpeople;
 	DIR *d;
 	struct dirent *dir;
+
+
+
+	iniciarRandom();
 
 	getNewSession(CLIENT);
 
@@ -312,6 +318,27 @@ trafficManager(void)
 		change  = 1;
 		changeSemaforo(  time );
 
+		/*Con esto se generan personas*/
+
+
+		newpeople = randoint(0 , MAXRANDPEOPLE );
+
+		for (i =0 ; i  <  newpeople ;++i)
+		{
+			/*aca eligo en que linea lo creo*/
+
+			 generatePeople(lineas[randoint(0 , cantlinea )] );
+		}
+
+
+
+
+
+
+
+
+
+		/*aca se mueven los colectivos*/
 		while(change != 0)
 
 		{

@@ -57,12 +57,8 @@ int updateLinea (lineaT * line, int time)
 {
   int change = 0;
 
-       if (updeteColectivos( (line->buses) , time)  > NOTCHANGE )
-	  		change = 1;
 
-
-
-   if (line->busesSended < line->busesToSend && ((time %  line->timeToStart == 0 && (line->busesSended -1)  == time / line->timeToStart )||  (line->busesSended -1)  < time / line->timeToStart))
+  if (line->busesSended < line->busesToSend && ((time %  line->timeToStart == 0 && (line->busesSended -1)  == time / line->timeToStart )||  (line->busesSended -1)  < time / line->timeToStart))
    {
       if (isSpaceEmpty(line->start))
       {
@@ -72,9 +68,21 @@ int updateLinea (lineaT * line, int time)
 		change = 1;
       }
    }
+
+       if (updeteColectivos( (line->buses) , time)  > NOTCHANGE )
+	  		change = 1;
+
+
+
+
    return change;
 }
 
+
+void generatePeople(lineaADT linea )
+{
+	busGeneratePeople(linea->buses);
+}
 
 
 lineaADT ReadBusLine(char * arch){
@@ -134,7 +142,7 @@ lineaADT ReadBusLine(char * arch){
 
 
 
-	aux->buses = newBuses( ruta, cantruta,  paux);
+	aux->buses = newBuses( ruta, cantruta,  paux, cantparada);
 
 
 	/*Comprobacion*/

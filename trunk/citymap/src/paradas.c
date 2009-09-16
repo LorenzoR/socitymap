@@ -21,7 +21,7 @@
 #include "paradas.h"
 #include "colectivo.h"
 #include "helper.h"
-
+#include "random.h"
 
 
 
@@ -137,6 +137,26 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 	else
 		movepeople( list->sig,   pos, bus);
 
+}
+
+
+
+void paradaGeneratePeople(paradaADT paradas, int cantParadas)
+{
+	/*int orig , dest;
+	personT aux;
+	if (cantParadas == 1)
+		return;
+	orig = randoint(0, cantParadas);
+	dest = randoint(0, cantParadas);
+	while(orig == dest)
+		dest = randoint(0, cantParadas);
+
+		if (!(aux = malloc(sizeof(struct pesonaT))))
+			fatal("No memory for another person\n");
+		aux->pos.x =
+	insertPerson();
+*/
 }
 
 
