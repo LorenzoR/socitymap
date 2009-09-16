@@ -31,6 +31,7 @@ typedef struct listT{
 	//route in the map
 	coor * route;
 	int cantRoute;
+	int cantParadas;
 	paradaADT paradas;
 }listT;
 
@@ -55,10 +56,20 @@ static int GraphIsEmpty(colectivoADT graph) {
 */
 int newname = 0;
 
+
+
+
+void busGeneratePeople(listADT bus){
+
+	paradaGeneratePeople(bus->paradas, bus->cantParadas);
+}
+
+
+
 static void getNewRoute(colectivoADT bus, listADT list)
 {
-	int i;
-	for (i=0; i< list->cantRoute; ++i)
+	int i = 0;
+	while (i< list->cantRoute)
 	{
 		if (bus->pos.x == list->route[i].x && bus->pos.y == list->route[i].y)
 		{
@@ -86,6 +97,7 @@ static void getNewRoute(colectivoADT bus, listADT list)
 						bus->dir = NORTE;
 			break;
 		}
+		++i;
 	}
 
 }
@@ -138,10 +150,11 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 		{
 
 			setState(bus->pos , getState(bus->pos )-1);/*pasa de lleno a vacio*/
+			setName(bus->pos, -1 );
 			bus->pos.x = pos.x;
 			bus->pos.y = pos.y;
 			setState(bus->pos , getState(bus->pos) + 1); /*pasa de vacio a lleno*/
-
+			setName(bus->pos, bus->name);
 			bus->lastMovedOn = time;
 
 			getNewRoute(bus, list);
@@ -153,7 +166,7 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 	return NOTCHANGE + updateBus(bus->sig, time , list);
 }
 
-listADT newBuses(coor route[], int cant, paradaADT paradas)
+listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas)
 {
 	listADT aux;
 	if (!(aux = malloc(sizeof(struct listT))))
@@ -162,6 +175,7 @@ listADT newBuses(coor route[], int cant, paradaADT paradas)
 		aux->route = route;
 		aux->bus = NULL;
 		aux->paradas = paradas;
+		aux->cantParadas = cantParadas;
 		return aux;
 
 }
@@ -184,6 +198,10 @@ void InsertBus(listADT list, coor pos, int time) {
 		list->bus->lastMovedOn = time;
 		list->bus->name = newname;
 		list->bus->sig =aux;
+
+		setState(list->bus->pos , getState(list->bus->pos) + 1); /*pasa de vacio a lleno*/
+		setName(list->bus->pos , list->bus->name);
+
 		newname++;
 
 		fprintf(log, "Se creo un colectivo %d\n" , list->bus->name);
