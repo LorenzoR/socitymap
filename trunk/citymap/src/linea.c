@@ -57,9 +57,10 @@ int updateLinea (lineaT * line, int time)
 {
   int change = 0;
 
-
+ // fprintf(log, "busesSended %d , busesToSend %d, time %d , timeToStart %d",line->busesSended, line->busesToSend, time ,line->timeToStart);
   if (line->busesSended < line->busesToSend && ((time %  line->timeToStart == 0 && (line->busesSended -1)  == time / line->timeToStart )||  (line->busesSended -1)  < time / line->timeToStart))
    {
+	//  fprintf(log , "esta vacio ? %d \n",isSpaceEmpty(line->start));
       if (isSpaceEmpty(line->start))
       {
     	fprintf(log, "Se crea un colectivo en la linea %s\n" , line->name);
@@ -74,14 +75,15 @@ int updateLinea (lineaT * line, int time)
 
 
 
-
    return change;
 }
 
 
 void generatePeople(lineaADT linea )
 {
+	fprintf(log , "se crea una persona en la linea %s\n", linea->name);
 	busGeneratePeople(linea->buses);
+	fprintf(log , "se creo la persona en la linea %s\n", linea->name);
 }
 
 
@@ -120,13 +122,15 @@ lineaADT ReadBusLine(char * arch){
 	 * y despues una de coordenada*/
 	paux = newparadas();
 	fscanf(fd, "paradas %d\n", &cantparada);
-	while(cantparada != 0)
+	fprintf(log, "cant de paradas %d\n" , cantparada);
+	i = cantparada;
+	while(i != 0)
 	{
-		fprintf(log, "se cre una parada en la linea %s\n" , aux->name);
+		fprintf(log, "se crea una parada en la linea %s\n" , aux->name);
 
 		fscanf(fd, "%d %d\n", &pos.x, &pos.y);
 		paux = insertParada(paux, pos);
-		--cantparada;
+		--i;
 
 	}
 
@@ -143,7 +147,7 @@ lineaADT ReadBusLine(char * arch){
 
 
 	aux->buses = newBuses( ruta, cantruta,  paux, cantparada);
-
+	aux->busesSended = 0;
 
 	/*Comprobacion*/
 
@@ -152,7 +156,7 @@ lineaADT ReadBusLine(char * arch){
 	fprintf(log, "buses a enviar  %d\n" , aux->busesToSend);
 	fprintf(log, "Tiempo a esperar  %d\n" , aux->timeToStart);
 	fprintf(log, "empieza en x %d, y %d\n" , aux->start.x, aux->start.y);
-
+	fprintf(log, "cant de paradas %d\n" , cantparada);
 
 	if (fclose(fd) == EOF)
 		{

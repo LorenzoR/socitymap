@@ -278,7 +278,7 @@ trafficManager(void)
 {
 
 	lineaADT * lineas = NULL;
-	int cantlinea = 0, change, i,time=0, newpeople;
+	int cantlinea = 0, change, i,time=0, newpeople, test;
 	DIR *d;
 	struct dirent *dir;
 
@@ -291,43 +291,49 @@ trafficManager(void)
 	//memset(&map,0xff, sizeof(struct mapCDT));
 	buildMap(&map);
 	newLights();
-	/*
+
 	d = opendir(DIRLINEA);
 	if ( d )
 	{
-		readdir(d);
-		readdir(d);
+		readdir(d);/*lee .*/
+		readdir(d);/*lee ..*/
+		readdir(d);/*lee .svn*/
 		while ((dir = readdir(d)) != NULL)
 	    {
 			cantlinea++;
 			lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 			 if (lineas==NULL)
 	     		fatal("Error (re)allocating memory to save the line list");
+			fprintf(log, "se lee el archivo %s\n", dir->d_name);
 
 	    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
 	    }
 	    closedir(d);
 	}
-	*/
 
+
+	fprintf(log , "entra al while \n");
 
 	while( 1 )
 	{
 		sleep(1);
-		time++;
+
 		change  = 1;
 		changeSemaforo(  time );
 
 		/*Con esto se generan personas*/
 
 
-		newpeople = randoint(0 , MAXRANDPEOPLE );
+		newpeople = randoint(1 , MAXRANDPEOPLE );
 
 		for (i =0 ; i  <  newpeople ;++i)
 		{
 			/*aca eligo en que linea lo creo*/
+			test = randoint(0 , cantlinea );
+			fprintf(log , "se crea una persona en la linea %d\n", test );
 
-			 generatePeople(lineas[randoint(0 , cantlinea )] );
+			 generatePeople(lineas[test] );
+
 		}
 
 
@@ -335,6 +341,7 @@ trafficManager(void)
 
 
 
+		fprintf(log, "Se termino de generar personas en el segundo %d\n", time);
 
 
 
@@ -349,6 +356,7 @@ trafficManager(void)
 		}
 
 		putMapUpdates(&map);
+		time++;
 	}
 
 	return;
@@ -658,16 +666,18 @@ buildMap( struct mapCDT *map)
 	map->state[5][2] = VERDEVERTICALVACIO;
 	map->state[2][2] = ROJOVERTICALVACIO;
 	*/
-
+	/*
 	map->state[7][8] = PARADASLLENO;
 	map->state[14][15] = PARADASLLENO;
 	map->state[5][13] = PARADASLLENO;
 	map->state[1][2] = PARADASLLENO;
-
+	*/
+	/*
 	map->state[14][0] = PARADAVACIO;
 	map->state[8][1] = PARADAVACIO;
 	map->state[11][1] = PARADAVACIO;
 	map->state[2][15] = PARADAVACIO;
+	*/
 	return;
 }
 
