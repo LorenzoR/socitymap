@@ -301,8 +301,9 @@ trafficManager(void)
 	    //	readdir(d);/*lee .*/
 		//readdir(d);/*lee ..*/
 		//readdir(d);/*lee .svn*/
-	    	if((!strcmp(dir->d_name, "..")) && (!strcmp(dir->d_name, "." ))&& (!strcmp(dir->d_name, ".svn")))
-	    	{
+	    	//if((!strcmp(dir->d_name, "..")) && (!strcmp(dir->d_name, "." ))&& (!strcmp(dir->d_name, ".svn")))
+	    	if ( dir->d_name[0] != '.' )
+		{
 				cantlinea++;
 				lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 				 if (lineas==NULL)
