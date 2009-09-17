@@ -96,15 +96,15 @@ lineaADT ReadBusLine(char * arch){
 	int cantparada , cantruta, i;
 	coor pos, *ruta;
 
-
+	if ((aux =	malloc (sizeof(lineaT)))==NULL)
+	  	fatal("Error allocating memory for bus line");
 	strcpy(aux->name, arch);
 	strcpy( archivo, DIRLINEA);
 	strncat (archivo, arch, 30);
 	//archivo[99] = '\0';
-	printf("%s\n", archivo);
+	//printf("%s\n", archivo);
 
-	if ((aux =	malloc (sizeof(lineaT)))==NULL)
-	  	fatal("Error allocating memory for bus line");
+	
 	//printf("aaaa");
 	if ((fd = fopen(archivo,"rt")) == NULL)
 	{
