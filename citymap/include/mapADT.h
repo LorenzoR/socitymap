@@ -13,7 +13,7 @@
 
 /*para probar*/
 #include <stdio.h>
-char log[200];
+char logs[200];
 /*hasta aca*/
 
 
@@ -32,9 +32,9 @@ typedef struct coor{
 
  struct mapCDT
 {
-	int state[MAXX][MAXY];
-	int name[MAXX][MAXY];
-	char linename[MAXX][MAXY][30];
+	int state[MAXY][MAXX];
+	int name[MAXY][MAXX];
+	int linename[MAXY][MAXX];
 };
 
 
@@ -48,8 +48,8 @@ int canMove(coor pos, int dir);
 int isSpaceEmpty(coor p);
 int iAmOnBusStop(coor p);
 
-void setLineName(coor pos ,char * name);
-char * getLineName(coor pos);
+void setLineName(coor pos ,int name);
+int getLineName(coor pos);
 void clearLineName(coor pos);
 
 #endif /* MAPADT_H_ */
