@@ -54,6 +54,9 @@ void newLights(void)
 	FILE * arch;
 	int i, count = 0;
 	semaforoT aux;
+
+	FILE *logs;
+	logs = fopen("log", "a+");
 	/**************************************************************************
 	 * loading of traffic lights from file.
 	 * ************************************************************************/
@@ -74,7 +77,7 @@ void newLights(void)
 	{
 		if (i != 3)
 			fprintf(stderr, "Invalid trafic light in file\n");
-			
+
 		else
 			if( verifysem(aux))
 			{
@@ -87,8 +90,8 @@ void newLights(void)
     		   	traficLight[count-1].timechange = aux.timechange;
        			traficLight[count-1].state = VERDEVERT;
        			setState(aux.pos, VERDEVERTICALVACIO);
-       			sprintf(logs, "Se creo un semaforo en x= %d, y= %d, tiempo de cambio = %d\n",traficLight[count-1].pos.x , traficLight[count-1].pos.y, traficLight[count-1].timechange );
-				putLogUpdates( logs );
+       			//fprintf(logs, "Se creo un semaforo en x= %d, y= %d, tiempo de cambio = %d\n",traficLight[count-1].pos.x , traficLight[count-1].pos.y, traficLight[count-1].timechange );
+				//putLogUpdates( logs );
 			}
     }
 	cantLights = count;
@@ -96,27 +99,30 @@ void newLights(void)
 	{
 		fatal("In close of trafic lights  configuration file:");
 	}
-
+	fclose(logs);
 }
 
 
 
 static void changeStateSemlight( semaforoT *light)
 {
+	FILE *logs;
+	logs = fopen("log", "a+");
   if( (light->state == VERDEVERT) )
   {
     light->state = ROJOVERT;
     setState(light->pos, getState(light->pos) + ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-    sprintf(logs, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light->pos.x , light->pos.y);
-  	putLogUpdates( logs );
+    //fprintf(logs, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light->pos.x , light->pos.y);
+  	//putLogUpdates( logs );
   }
   else
   {
     light->state = VERDEVERT;
      setState(light->pos, getState(light->pos) - ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-      sprintf(logs, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light->pos.x , light->pos.y);
-	putLogUpdates( logs );
+      //fprintf(logs, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light->pos.x , light->pos.y);
+	//putLogUpdates( logs );
   }
+  fclose(logs);
 }
 
 void changeSemaforo( int time )

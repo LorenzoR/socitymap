@@ -26,9 +26,6 @@
  * Macros and definitions
  */
 
-int getName(coor pos){
-	return map.name[pos.y][pos.x];
-}
 
 void setName(coor pos, int name){
 	map.name[pos.y][pos.x] = name;
@@ -45,10 +42,6 @@ int canMove(coor pos, int dir)
   return map.state[pos.y][pos.x] == VACIO ||  map.state[pos.y][pos.x] == PARADAVACIO || ((dir == NORTE || dir == SUR )&& map.state[pos.y][pos.x] ==  VERDEVERTICALVACIO) || ((dir == ESTE || dir == OESTE) && map.state[pos.y][pos.x] ==  ROJOVERTICALVACIO )  ;
 }
 
-int getState(coor pos)
-{
-  return map.state[pos.y][pos.x];
-}
 
 void setState(coor pos, int dato)
 {
@@ -67,7 +60,32 @@ int iAmOnBusStop(coor p){
 
 void setLineName(coor pos ,int name)
 {
-	map.linename[pos.y][pos.x] = name;	
+	map.linename[pos.y][pos.x] = name;
+}
+
+void clearLineName(coor pos)
+{
+	map.linename[pos.y][pos.x] = -1 ;
+}
+
+
+int getName2(struct mapCDT mapa,coor pos){
+	return mapa.name[pos.y][pos.x];
+}
+
+int getLineName2(struct mapCDT mapa,coor pos)
+{
+
+	return 	mapa.linename[pos.y][pos.x];
+}
+int getState2(struct mapCDT mapa,coor pos)
+{
+  return mapa.state[pos.y][pos.x];
+}
+
+
+int getName(coor pos){
+	return map.name[pos.y][pos.x];
 }
 
 int getLineName(coor pos)
@@ -75,9 +93,7 @@ int getLineName(coor pos)
 
 	return 	map.linename[pos.y][pos.x];
 }
-void clearLineName(coor pos)
+int getState(coor pos)
 {
-	map.linename[pos.y][pos.x] = -1 ;
+  return map.state[pos.y][pos.x];
 }
-
-

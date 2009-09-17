@@ -39,7 +39,7 @@ void GetTermSize(int * rows, int * cols);
 //Functions to send info to ncurses windows
 void updateScreenLog(char *eventString);
 void updateScreenMap( struct mapCDT *map );
-void updateStatus( int y, int x, int status);
+void updateStatus( int y, int x, int status, int i , int j, struct mapCDT *map);
 
 //To mock the changes that should be done by the main traffic process
 void modifySemaphores( struct mapCDT *map);
@@ -90,7 +90,7 @@ main(void)
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
 	}
-
+	/*
 	switch ( pid = fork() )
 	{
 		case -1:
@@ -117,7 +117,7 @@ main(void)
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
 	}
-
+	*/
 	//char *mylog;
 	while (1)
 	{
@@ -189,7 +189,7 @@ mockTrafficManager(void)
 		map2.state[route3[(i+6)%12].y][route3[(i+6)%12].x] = 0;
 
 		//Send changes for the log
-		putLogUpdates( events[i] );
+		////putLogUpdates( events[i] );
 
 		//To walk only through the simulation arrays
 		//for RoundRobinRoutes and Log messages
@@ -257,7 +257,7 @@ mockCalculateChanges(int signum)
 			map2.state[route3[(timerCount+6)%12].y][route3[(timerCount+6)%12].x] = 0;
 
 			//Send changes for the log
-			putLogUpdates( events[timerCount] );
+			//putLogUpdates( events[timerCount] );
 
 			//To walk only through the simulation arrays
 			//for RoundRobinRoutes and Log messages
@@ -282,8 +282,8 @@ trafficManager(void)
 	DIR *d;
 	struct dirent *dir;
 
-
-
+	FILE *logs;
+		logs = fopen("log", "a+");
 	iniciarRandom();
 
 	getNewSession(CLIENT);
@@ -295,7 +295,7 @@ trafficManager(void)
 	d = opendir(DIRLINEA);
 	if ( d )
 	{
-		
+
 		while ((dir = readdir(d)) != NULL)
 	    {
 	    //	readdir(d);/*lee .*/
@@ -308,23 +308,23 @@ trafficManager(void)
 				lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 				 if (lineas==NULL)
 	     			fatal("Error (re)allocating memory to save the line list");
-				sprintf(logs, "se lee el archivo %s\n", dir->d_name);
-				putLogUpdates( logs );
+				//fprintf(logs, "se lee el archivo %s\n", dir->d_name);
+				////putLogUpdates( logs );
 
 		    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
-		    	sprintf(logs, "se termino de leer el archivo %s\n", dir->d_name);
-	    		putLogUpdates( logs );
-	    	}	
+		    	//fprintf(logs, "se termino de leer el archivo %s\n", dir->d_name);
+	    		////putLogUpdates( logs );
+	    	}
 	    }
 	    closedir(d);
 	}
 
 
-	//sprintf(logs , "entra al while \n");
+	//fprintf(logs , "entra al while \n");
 
 	while( 1 )
 	{
-		sleep(3);
+		sleep(1);
 
 		change  = 1;
 		changeSemaforo(  time );
@@ -338,8 +338,8 @@ trafficManager(void)
 		{
 			/*aca eligo en que linea lo creo*/
 			test = randoint(0 , cantlinea );
-			sprintf(logs , "se crea una persona en la linea %d\n", test );
-			putLogUpdates( logs );
+			//fprintf(logs , "se crea una persona en la linea %d\n", test );
+			//putLogUpdates( logs );
 			 generatePeople(lineas[test] );
 
 		}
@@ -349,8 +349,8 @@ trafficManager(void)
 
 
 
-		sprintf(logs, "Se termino de generar personas en el instante %d\n", time);
-		putLogUpdates( logs );
+		//fprintf(logs, "Se termino de generar personas en el instante %d\n", time);
+		//putLogUpdates( logs );
 
 
 		/*aca se mueven los colectivos*/
@@ -366,7 +366,7 @@ trafficManager(void)
 		putMapUpdates(&map);
 		time++;
 	}
-
+	fclose(logs);
 	return;
 }
 
@@ -375,6 +375,8 @@ closeSystem( void )
 {
 	closeSession();
 	screen_end();
+	//fclose( logs );
+
 	return 0;
 }
 
@@ -390,6 +392,8 @@ initializeSystem( void )
 
 	//initialize session layer
 	getNewSession(SERVER);
+
+	//logs = fopen("log", "a+");
 
 	return 0;
 }
@@ -559,7 +563,7 @@ updateScreenMap( struct mapCDT *map )
 					mvwaddch(citySystem.mapWindow, i*2+1, j*2, ' ');
 				}
 				//always put the map status mark on the lower right char
-				updateStatus( i*2+1, j*2+1, map->state[i][j] );
+				updateStatus( i*2+1, j*2+1, map->state[i][j], i, j, map  );
 				//mvwaddch(citySystem.mapWindow, i*2+1, j*2+1, 'O');
 			}
 
@@ -594,16 +598,27 @@ updateScreenMap( struct mapCDT *map )
 }
 
 void
-updateStatus( int y, int x, int status)
+updateStatus( int y, int x, int status, int i, int j, struct mapCDT *map)
 {
+	coor pos;
+	pos.x = j;
+	pos.y = i;
+
+	FILE *logs;
+			logs = fopen("log2", "a+");
+	int lineName = getLineName2(*map ,pos);
+	int busNumber = getName2(*map , pos);
+	fprintf(logs, "numerocolectivo = %d, x=%d y=%d\n", getName2(*map, pos), pos.x, pos.y);
+	fprintf(logs, "Numero de linea = %d, x=%d y=%d\n", getLineName2(*map, pos), pos.x, pos.y);
+
 	//VACIO = 0, LLENO = 1, VERDEVERTICALVACIO = 2, VERDEVERTICALLLENO = 3,
 	//ROJOVERTICALVACIO = 4, ROJOVERTICALLENO =5,  PARADAVACIO = 6, PARADASLLENO = 7
 	switch( status )
 	{
-	case VACIO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(3));
-				mvwaddch(citySystem.mapWindow, y, x, 'O');break;
-	case LLENO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(4));
+	case VACIO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(2));
 				mvwaddch(citySystem.mapWindow, y, x, ' ');break;
+	case LLENO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(getLineName2(*map, pos)%13));
+				mvwaddch(citySystem.mapWindow, y, x, (getName2(*map, pos) % 10 )+'0');break;
 	case VERDEVERTICALVACIO : 	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(2));
 								mvwaddch(citySystem.mapWindow, y, x, ' ');
 								wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(6));
@@ -644,7 +659,7 @@ updateStatus( int y, int x, int status)
 						if( y == 5 || y == 11 || y == 17 || y == 23 || y == 29 )
 							mvwaddch(citySystem.mapWindow, y-1, x, 'P');
 						break;
-	case PARADASLLENO:	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(4));
+	case PARADASLLENO:	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(getLineName2(*map, pos)%13));
 						mvwaddch(citySystem.mapWindow, y, x, ' ');
 						wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(13));
 						if( x == 5 || x == 11 || x == 17 || x == 23 || x == 29 )
@@ -655,6 +670,7 @@ updateStatus( int y, int x, int status)
 	default: 	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(2));
 				mvwaddch(citySystem.mapWindow, y, x, ' ');
 	}
+	fclose(logs);
 	return;
 }
 
@@ -668,7 +684,11 @@ buildMap( struct mapCDT *map)
 	for( i=0 ; i<MAXY ; i++ )
 		for( j=0 ; j<MAXX ; j++ )
 			if( isOneStreet(i,j) )
+			{
 				map->state[i][j] = VACIO;
+				map->name[i][j] = -1;
+				map->linename[i][j] = -1;
+			}
 	/*To emulate initial states for semaphores
 	map->state[1][2] = LLENO;
 	map->state[5][2] = VERDEVERTICALVACIO;
