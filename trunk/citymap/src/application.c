@@ -295,18 +295,23 @@ trafficManager(void)
 	d = opendir(DIRLINEA);
 	if ( d )
 	{
-		readdir(d);/*lee .*/
-		readdir(d);/*lee ..*/
-		readdir(d);/*lee .svn*/
+		
 		while ((dir = readdir(d)) != NULL)
 	    {
-			cantlinea++;
-			lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
-			 if (lineas==NULL)
-	     		fatal("Error (re)allocating memory to save the line list");
-			fprintf(log, "se lee el archivo %s\n", dir->d_name);
+	    //	readdir(d);/*lee .*/
+		//readdir(d);/*lee ..*/
+		//readdir(d);/*lee .svn*/
+	    	if((!strcmp(dir->d_name, "..")) && (!strcmp(dir->d_name, "." ))&& (!strcmp(dir->d_name, ".svn")))
+	    	{
+				cantlinea++;
+				lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
+				 if (lineas==NULL)
+	     			fatal("Error (re)allocating memory to save the line list");
+				fprintf(log, "se lee el archivo %s\n", dir->d_name);
 
-	    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
+		    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
+		    	fprintf(log, "se termino de leer el archivo %s\n", dir->d_name);
+	    	}	
 	    }
 	    closedir(d);
 	}
