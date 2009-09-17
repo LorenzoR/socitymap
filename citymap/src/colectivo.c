@@ -33,6 +33,7 @@ typedef struct listT{
 	int cantRoute;
 	int cantParadas;
 	paradaADT paradas;
+	char * name;
 }listT;
 
 
@@ -167,12 +168,15 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 
 			setState(bus->pos , getState(bus->pos )-1);/*pasa de lleno a vacio*/
 			setName(bus->pos, -1 );
+			clearLineName(bus->pos);
 			bus->pos.x = pos.x;
 			bus->pos.y = pos.y;
+			
 			setState(bus->pos , getState(bus->pos) + 1); /*pasa de vacio a lleno*/
 			setName(bus->pos, bus->name);
+			setLineName(bus->pos , list->name);
 			bus->lastMovedOn = time;
-
+			fprintf(log, "colectivo linea %s\n" , getLineName(bus->pos));
 			getNewRoute(bus, list);
 			return CHANGE + updateBus(bus->sig, time, list);
 		}
@@ -182,7 +186,7 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 	return NOTCHANGE + updateBus(bus->sig, time , list);
 }
 
-listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas)
+listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas, char * name)
 {
 	listADT aux;
 	if (!(aux = malloc(sizeof(struct listT))))
@@ -192,6 +196,7 @@ listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas)
 		aux->bus = NULL;
 		aux->paradas = paradas;
 		aux->cantParadas = cantParadas;
+		aux->name = name;
 		return aux;
 
 }

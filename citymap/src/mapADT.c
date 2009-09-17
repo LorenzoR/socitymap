@@ -12,6 +12,7 @@
 /*
  * System includes
  */
+#include <string.h>
 
 /*
  * Project includes
@@ -62,6 +63,21 @@ int isSpaceEmpty(coor p){
 int iAmOnBusStop(coor p){
 
 	return map.state[p.y][p.x] == PARADASLLENO ;
+}
+
+void setLineName(coor pos ,char * name)
+{
+	strcpy(map.linename[pos.y][pos.x] ,name);	
+}
+
+char * getLineName(coor pos)
+{
+
+	return 	map.linename[pos.y][pos.x];
+}
+void clearLineName(coor pos)
+{
+	map.linename[pos.y][pos.x][0] = '\0' ;
 }
 
 

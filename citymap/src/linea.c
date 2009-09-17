@@ -146,7 +146,7 @@ lineaADT ReadBusLine(char * arch){
 
 
 
-	aux->buses = newBuses( ruta, cantruta,  paux, cantparada);
+	aux->buses = newBuses( ruta, cantruta,  paux, cantparada, aux->name);
 	aux->busesSended = 0;
 
 	/*Comprobacion*/

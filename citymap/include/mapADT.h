@@ -34,6 +34,7 @@ typedef struct coor{
 {
 	int state[MAXX][MAXY];
 	int name[MAXX][MAXY];
+	char linename[MAXX][MAXY][30];
 };
 
 
@@ -46,6 +47,8 @@ int getState(coor pos) ;
 int canMove(coor pos, int dir);
 int isSpaceEmpty(coor p);
 int iAmOnBusStop(coor p);
-
+void setLineName(coor pos ,char * name);
+char * getLineName(coor pos);
+void clearLineName(coor pos);
 
 #endif /* MAPADT_H_ */
