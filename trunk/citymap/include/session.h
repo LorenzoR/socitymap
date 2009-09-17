@@ -11,7 +11,7 @@
 #include "helper.h"
 #include "comm.h"
 
-#define MAX_BUFFER_SIZE 4*MAXX*MAXY
+#define MAX_BUFFER_SIZE sizeof(struct mapCDT)//4*MAXX*MAXY*3
 
 int getNewSession(int tipoComm );
 int closeSession( void );

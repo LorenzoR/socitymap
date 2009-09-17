@@ -27,23 +27,23 @@ int
 getNewSession( int tipoComm )
 {
 	if( (comm=iniciarComm( tipoComm, MAP_SERVER_NAME ) ) == NULL )
-		return 1;	
-	
-	if( (logComm=iniciarComm( tipoComm, LOG_SERVER_NAME ) ) == NULL )
-		return 2;
+		return 1;
+
+	//if( (logComm=iniciarComm( tipoComm, LOG_SERVER_NAME ) ) == NULL )
+		//return 2;
 	return 0;
 }
 
 int
-getMapUpdates(struct mapCDT **map )
+getMapUpdates(struct mapCDT **mapa )
 {
 	int n;
-	if( map == NULL )
+	if( mapa == NULL )
 		return 1;
-	
+
 	if( comm == NULL )
 		return 2;
-		
+
 	if( aceptar_conexion( comm ) == 0 )
 			return 3;
 	/*
@@ -51,13 +51,15 @@ getMapUpdates(struct mapCDT **map )
 		return 3;
 	printf("==>ACEPTO conexion\n");//DEBUG
 	*/
-	
+
 	if( (n=recibir_datos( comm, (void *)buf, MAX_BUFFER_SIZE )) < 0 )
-		return 4;	
-	
-	*map = calloc(1,sizeof(struct mapCDT));
-	
-	memcpy( (*map)->state, buf, n );
+		return 4;
+
+	*mapa = calloc(1,sizeof(struct mapCDT));
+
+	memcpy( (*mapa), buf, n );
+
+
 	//memcpy( (*map)->matrix, buf, sizeof((*map)->matrix) );
 	//(*map)->dim =MAP_SIZE;
 	//printf("RECEIVED: %d size:%d\n", (*map)->matrix[2][2], sizeof((*map)->matrix));//DEBUG
@@ -69,20 +71,20 @@ putMapUpdates(struct mapCDT *map )
 {
 	if( map == NULL )
 			return 1;
-	
+
 	if( comm == NULL )
 			return 2;
-	/*	
+	/*
 	if( aceptar_conexion( session.comm ) == 0 )
 			return 3;
 	*/
 	//printf("entre a putMapUpdates()\n");
 	if( establecer_conexion( comm ) == 0 )
 		return 3;
-		
+
 	//printf("SEND: %d\n", map->matrix[2][2]);//DEBUG
-	memcpy( buf, map->state, sizeof(map->state) );
-	if( enviar_datos( comm, (void*)buf, sizeof(map->state)) < 0 )
+	memcpy( buf, map, sizeof(struct mapCDT) );
+	if( enviar_datos( comm, (void*)buf, sizeof(struct mapCDT)) < 0 )
 		return 4;
 	return 0;
 }
@@ -93,16 +95,16 @@ putMapUpdates(struct mapCDT *map )
 
 
 
-int 
+int
 getLogUpdates( char **logEntry )
 {
 	int n;
 	if( logEntry == NULL )
 		return 1;
-	
+
 	if( logComm == NULL )
 		return 2;
-		
+
 	if( aceptar_conexion( logComm ) == 0 )
 			return 3;
 	/*
@@ -110,12 +112,12 @@ getLogUpdates( char **logEntry )
 		return 3;
 	printf("==>ACEPTO conexion\n");//DEBUG
 	*/
-	
+
 	if( (n=recibir_datos( logComm, (void *)logBuf, MAX_BUFFER_SIZE )) < 0 )
-		return 4;	
-	
+		return 4;
+
 	*logEntry=calloc(1,n+1);
-	
+
 	memcpy( *logEntry, logBuf, n );
 	//memcpy( (*map)->matrix, buf, sizeof((*map)->matrix) );
 	//(*map)->dim =MAP_SIZE;
@@ -123,26 +125,26 @@ getLogUpdates( char **logEntry )
 	return 0;
 }
 
-int 
+int
 putLogUpdates( char *logEntry )
 {
 	int len;
-	
+
 	if( logEntry == NULL )
 			return 1;
-	
+
 	if( logComm == NULL )
 			return 2;
-	if( (len = strlen(logEntry))< 0 ) 
+	if( (len = strlen(logEntry))< 0 )
 			return 3;
-	/*	
+	/*
 	if( aceptar_conexion( session.comm ) == 0 )
 			return 3;
 	*/
 	//printf("entre a putMapUpdates()\n");
 	if( establecer_conexion( logComm ) == 0 )
 		return 3;
-		
+
 	//printf("SEND: %d\n", map->matrix[2][2]);//DEBUG
 	memcpy( logBuf, logEntry,len );
 	if( enviar_datos( logComm, (void*)logBuf, len) < 0 )
@@ -156,7 +158,7 @@ closeSession( void )
 {
 	if( comm != NULL )
 		cerrarComm( comm );
-	
+
 	if( logComm != NULL )
 		cerrarComm( logComm );
 	return 0;

@@ -13,7 +13,8 @@
 
 /*para probar*/
 #include <stdio.h>
-char logs[200];
+//char logs[200];
+FILE *logs;
 /*hasta aca*/
 
 
@@ -30,7 +31,7 @@ typedef struct coor{
   int y;
 }coor;
 
- struct mapCDT
+struct mapCDT
 {
 	int state[MAXY][MAXX];
 	int name[MAXY][MAXX];
@@ -51,5 +52,12 @@ int iAmOnBusStop(coor p);
 void setLineName(coor pos ,int name);
 int getLineName(coor pos);
 void clearLineName(coor pos);
+
+
+
+int getLineName2(struct mapCDT mapa,coor pos);
+int getState2(struct mapCDT mapa,coor pos);
+int getName2(struct mapCDT mapa,coor pos);
+
 
 #endif /* MAPADT_H_ */

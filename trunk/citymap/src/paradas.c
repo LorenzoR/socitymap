@@ -53,7 +53,8 @@ paradaADT newparadas()
 
 paradaADT insertParada(paradaADT list, coor pos) {
 	paradaADT aux;
-
+	FILE *logs;
+		logs = fopen("log", "a+");
 		aux = list;
 		if (!(list = malloc(sizeof(struct paradaT))))
 			fatal("No memory for another bus stop\n");
@@ -64,9 +65,9 @@ paradaADT insertParada(paradaADT list, coor pos) {
 		list->sig =aux;
 
 
-		sprintf(logs, "Se crea una parada en x = %d, y  = %d\n" , list->pos.x, list->pos.y);
-		putLogUpdates( logs );
-
+		//fprintf(logs, "Se crea una parada en x = %d, y  = %d\n" , list->pos.x, list->pos.y);
+		//putLogUpdates( logs );
+		fclose(logs);
 		return list;
 
 }
@@ -97,6 +98,8 @@ void removepeople(peopleADT *list,  coor pos)
 {
 	peopleADT aux;
 
+	FILE *logs;
+		logs = fopen("log", "a+");
 	if ((list) == NULL)
 		return;
 	if((*list) == NULL)
@@ -104,8 +107,8 @@ void removepeople(peopleADT *list,  coor pos)
 
 	if ((*list)->pos.x == pos.x && (*list)->pos.y == pos.y )
 	{
-		sprintf(logs, "Se baja la persona  %d\n" , (*list)->name);
-		putLogUpdates( logs );
+		fprintf(logs, "Se baja la persona  %d\n" , (*list)->name);
+		//putLogUpdates( logs );
 
 		/*hay que borrar*/
 
@@ -118,6 +121,7 @@ void removepeople(peopleADT *list,  coor pos)
 
 	}
 	removepeople (&(*list)->sig, pos) ;
+	fclose(logs);
 	return;
 
 
@@ -126,18 +130,20 @@ void removepeople(peopleADT *list,  coor pos)
 void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 {
 	peopleADT aux, pre;
+	FILE *logs;
+		logs = fopen("log", "a+");
 	if ((list) == NULL)
 		return;
 	if (list->pos.x == pos.x && list->pos.y == pos.y )
 	{
-		sprintf(logs, "Se sube la gente de la parada en x= %d, y= %d\n" , list->pos.x, list->pos.y);
-		putLogUpdates( logs );
+		fprintf(logs, "Se sube la gente de la parada en x= %d, y= %d\n" , list->pos.x, list->pos.y);
+		//putLogUpdates( logs );
 		aux = *bus;
 		pre = aux;
 		if( *bus == NULL)
 		{
-			//sprintf(logs, "el colectivo estaba vacio\n" );
-			//putLogUpdates( logs );
+			//fprintf(logs, "el colectivo estaba vacio\n" );
+			////putLogUpdates( logs );
 
 			*bus = list->people;
 		}
@@ -155,7 +161,7 @@ void  movepeople(paradaADT list,  coor pos, peopleADT  * bus)
 	}
 	else
 		movepeople( list->sig,   pos, bus);
-
+	fclose(logs);
 }
 
 static paradaADT getParada(paradaADT paradas, int dest)
@@ -174,6 +180,8 @@ void paradaGeneratePeople(paradaADT paradas, int cantParadas)
 	peopleADT aux;
 	paradaADT parad;
 
+	FILE *logs;
+	logs = fopen("log", "a+");
 	if (cantParadas == 1 || cantParadas == 0)
 		return;
 
@@ -191,14 +199,14 @@ void paradaGeneratePeople(paradaADT paradas, int cantParadas)
 	aux->name = peoplename;
 
 	peoplename++;
-	sprintf(logs,"se creo la persona %d, esta en la parada x = %d, y = %d\n", aux->name, parad->pos.x, parad->pos.y);
-	putLogUpdates( logs );
+	//fprintf(logs,"se creo la persona %d, esta en la parada x = %d, y = %d\n", aux->name, parad->pos.x, parad->pos.y);
+	//putLogUpdates( logs );
 	aux->sig = parad->people ;
 	parad->people = aux;
 
-	sprintf(logs,"viaja hasta la parada en x = %d, y = %d\n", aux->pos.x, aux->pos.y);
-	putLogUpdates( logs );
-
+	fprintf(logs,"se creo la persona %d, esta en la parada x = %d, y = %d, viaja hasta la parada en x = %d, y = %d\n", aux->name, parad->pos.x, parad->pos.y, aux->pos.x, aux->pos.y);
+	//putLogUpdates( logs );
+	fclose(logs);
 }
 
 
