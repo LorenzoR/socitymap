@@ -118,25 +118,29 @@ static void getNewRoute(colectivoADT bus, listADT list)
 static int updateBus(colectivoADT  bus,int  time, listADT list)
 {
 	coor pos;
+	char test[100];
 	if(bus == NULL)
 		return NOTCHANGE;
 	if (iAmOnBusStop(bus->pos))
 	{
 		if (haspeopletoleave(bus->people ,bus->pos))
 		{
-			fprintf(log, "Se bajan personas del micro %d\n" , bus->name);
+			sprintf(test ,"Se bajan personas del micro %d\n" , bus->name);
+			putLogUpdates( log );
 			removepeople(&(bus->people), bus->pos);
 			bus->lastMovedOn = time;
-			fprintf(log, "se bajo gente del micro %d\n" , bus->name);
-
+			sprintf(log, "se bajo gente del micro %d\n" , bus->name);
+			putLogUpdates( log );
 		}
 		if (hastostop(list->paradas ,bus->pos))
 		{
-			fprintf(log, "va a subir gente al micro %d\n" , bus->name);
+			
+			sprintf(log, "va a subir gente al micro %d\n" , bus->name);
+			putLogUpdates( log );
 			movepeople(list->paradas ,bus->pos , &(bus->people));
 			bus->lastMovedOn = time;
-			fprintf(log, "subio la gente al micro %d\n" , bus->name);
-
+			sprintf(log, "subio la gente al micro %d\n" , bus->name);
+			putLogUpdates( log );
 		}
 	}
 	if(time != bus->lastMovedOn)
@@ -176,7 +180,7 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 			setName(bus->pos, bus->name);
 			setLineName(bus->pos , list->name);
 			bus->lastMovedOn = time;
-			fprintf(log, "colectivo linea %s\n" , getLineName(bus->pos));
+			//sprintf(log, "colectivo linea %s\n" , getLineName(bus->pos));
 			getNewRoute(bus, list);
 			return CHANGE + updateBus(bus->sig, time, list);
 		}
@@ -226,8 +230,8 @@ void InsertBus(listADT list, coor pos, int time) {
 
 		newname++;
 
-		fprintf(log, "Se creo un colectivo %d\n" , list->bus->name);
-
+		sprintf(log, "Se creo un colectivo %d\n" , list->bus->name);
+		putLogUpdates( log );
 
 }
 
