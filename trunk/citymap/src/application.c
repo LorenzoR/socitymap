@@ -118,7 +118,7 @@ main(void)
 			setSignals();
 	}
 
-	char *mylog;
+	//char *mylog;
 	while (1)
 	{
 		//printf("Waiting for changes ...\n");//DEBUG
@@ -132,7 +132,7 @@ main(void)
 			//emulate multiple messages for the log window
 			//i = (i+1) %12;
 		}
-
+/*
 		if( getLogUpdates( &mylog ) == 0)
 		{
 			//updateScreenLog( events[i] );
@@ -140,7 +140,7 @@ main(void)
 			free(mylog);
 			update_display();
 		}
-
+*/
    	}
 
 
@@ -321,6 +321,23 @@ trafficManager(void)
 
 	//fprintf(logs , "entra al while \n");
 	putMapUpdates(&map);
+
+	sprintf(logs, "prueba \n");
+			putLogUpdates( logs );
+
+			sprintf(logs, "prueba \n");
+					putLogUpdates( logs );
+
+					sprintf(logs, "prueba \n");
+							putLogUpdates( logs );
+
+							sprintf(logs, "prueba \n");
+									putLogUpdates( logs );
+
+									sprintf(logs, "prueba \n");
+											putLogUpdates( logs );
+
+
 	while( 1 )
 	{
 
