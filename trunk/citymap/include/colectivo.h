@@ -7,7 +7,7 @@ typedef struct colectivoT * colectivoADT;
 #include "paradas.h"
 void InsertBus(listADT list, coor pos, int time);
 void busGeneratePeople(listADT bus);
-listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas);
+listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas, char * name);
 int updeteColectivos(listADT list,int  time);
 
 #endif /*COLECTIVO_H_*/
