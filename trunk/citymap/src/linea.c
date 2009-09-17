@@ -58,8 +58,8 @@ int updateLinea (lineaT * line, int time)
 {
   int change = 0;
 
-  FILE *logs;
-  	logs = fopen("log", "a+");
+ // FILE *logs;
+ // 	logs = fopen("log", "a+");
  // fprintf(logs, "busesSended %d , busesToSend %d, time %d , timeToStart %d",line->busesSended, line->busesToSend, time ,line->timeToStart);
   if (line->busesSended < line->busesToSend && (time %  line->timeToStart == 0 ||  (line->busesSended -1)  < time / line->timeToStart))
    {
@@ -82,22 +82,22 @@ int updateLinea (lineaT * line, int time)
 	  		change = 1;
 
 
-       fclose(logs);
+ //      fclose(logs);
    return change;
 }
 
 
 void generatePeople(lineaADT linea )
 {
-	FILE *logs;
-	logs = fopen("log", "a+");
+//	FILE *logs;
+//	logs = fopen("log", "a+");
 
 	//fprintf(logs , "se crea una persona en la linea %s\n", linea->name);
 	//putLogUpdates( logs );
 	busGeneratePeople(linea->buses);
 	//fprintf(logs , "se creo la persona en la linea %s\n", linea->name);
 	//putLogUpdates( logs );
-	fclose(logs);
+//	fclose(logs);
 }
 
 
@@ -109,8 +109,8 @@ lineaADT ReadBusLine(char * arch){
 	//archivo[99] = '\0';
 	int cantparada , cantruta, i;
 	coor pos, *ruta;
-	FILE *logs;
-	logs = fopen("log", "a+");
+//	FILE *logs;
+//	logs = fopen("log", "a+");
 
 	if ((aux =	malloc (sizeof(lineaT)))==NULL)
 	  	fatal("Error allocating memory for bus line");
@@ -166,7 +166,7 @@ lineaADT ReadBusLine(char * arch){
 	aux->busesSended = 0;
 
 	/*Comprobacion*/
-
+/*
 	fprintf(logs, "Se cargo la linea %s\n" , aux->name);
 	//putLogUpdates( logs );
 	fprintf(logs, "nombe de archivo  %s\n" , aux->name);
@@ -179,12 +179,11 @@ lineaADT ReadBusLine(char * arch){
 	//putLogUpdates( logs );
 	fprintf(logs, "cant de paradas %d\n" , cantparada);
 	//putLogUpdates( logs );
-
+*/
 	if (fclose(fd) == EOF)
 		{
 			fatal("In close of trafic lights  configuration file:");
 		}
-fclose(logs);
 	return aux;
 
 	}
