@@ -61,11 +61,15 @@ int updateLinea (lineaT * line, int time)
   FILE *logs;
   	logs = fopen("log", "a+");
  // fprintf(logs, "busesSended %d , busesToSend %d, time %d , timeToStart %d",line->busesSended, line->busesToSend, time ,line->timeToStart);
-  if (line->busesSended < line->busesToSend && ((time %  line->timeToStart == 0 && (line->busesSended -1)  == time / line->timeToStart )||  (line->busesSended -1)  < time / line->timeToStart))
+  if (line->busesSended < line->busesToSend && (time %  line->timeToStart == 0 ||  (line->busesSended -1)  < time / line->timeToStart))
    {
+//	  fprintf(logs, "esta en %d\n" , getState(line->start));
+//	  fprintf(logs, "bbbbbbbbbbbbbbbbbbbbbbbbbb");
 	//  fprintf(logs , "esta vacio ? %d \n",isSpaceEmpty(line->start));
       if (isSpaceEmpty(line->start))
       {
+ //   	  fprintf(logs, "esta vacio? %d\n" , isSpaceEmpty(line->start));
+//    	  fprintf(logs, "esta en x = %d, y = %d", line->start.x, line->start.y);
     	//fprintf(logs, "Se crea un colectivo en la linea %s\n" , line->name);
     	//putLogUpdates( logs );
 		InsertBus(line->buses, line->start, time);
@@ -180,6 +184,7 @@ lineaADT ReadBusLine(char * arch){
 		{
 			fatal("In close of trafic lights  configuration file:");
 		}
+fclose(logs);
 	return aux;
-	fclose(logs);
+
 	}

@@ -29,8 +29,8 @@ getNewSession( int tipoComm )
 	if( (comm=iniciarComm( tipoComm, MAP_SERVER_NAME ) ) == NULL )
 		return 1;
 
-	//if( (logComm=iniciarComm( tipoComm, LOG_SERVER_NAME ) ) == NULL )
-		//return 2;
+	if( (logComm=iniciarComm( tipoComm, LOG_SERVER_NAME ) ) == NULL )
+		return 2;
 	return 0;
 }
 
@@ -69,11 +69,13 @@ getMapUpdates(struct mapCDT **mapa )
 int
 putMapUpdates(struct mapCDT *map )
 {
+
 	if( map == NULL )
 			return 1;
 
 	if( comm == NULL )
 			return 2;
+		//sleep(5);
 	/*
 	if( aceptar_conexion( session.comm ) == 0 )
 			return 3;
@@ -81,6 +83,7 @@ putMapUpdates(struct mapCDT *map )
 	//printf("entre a putMapUpdates()\n");
 	if( establecer_conexion( comm ) == 0 )
 		return 3;
+		//sleep(5);
 
 	//printf("SEND: %d\n", map->matrix[2][2]);//DEBUG
 	memcpy( buf, map, sizeof(struct mapCDT) );
