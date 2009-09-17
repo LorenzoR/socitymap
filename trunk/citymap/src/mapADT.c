@@ -65,19 +65,19 @@ int iAmOnBusStop(coor p){
 	return map.state[p.y][p.x] == PARADASLLENO ;
 }
 
-void setLineName(coor pos ,char * name)
+void setLineName(coor pos ,int name)
 {
-	strcpy(map.linename[pos.y][pos.x] ,name);	
+	map.linename[pos.y][pos.x] = name;	
 }
 
-char * getLineName(coor pos)
+int getLineName(coor pos)
 {
 
 	return 	map.linename[pos.y][pos.x];
 }
 void clearLineName(coor pos)
 {
-	map.linename[pos.y][pos.x][0] = '\0' ;
+	map.linename[pos.y][pos.x] = -1 ;
 }
 
 

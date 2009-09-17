@@ -22,7 +22,7 @@
 #include "mapADT.h"
 #include "semaforo.h"
 #include "helper.h"
-
+#include "session.h"
 
 /*
  * Macros and definitions
@@ -61,12 +61,12 @@ void newLights(void)
 	{
 		fatal("In open of trafic lights configuration file:");
 	}
-/*creo un archivo de log para probar*/
-/*	if ((log = fopen("logFile","wt")) == NULL)
+/*creo un archivo de logs para probar*/
+/*	if ((logs = fopen("logsFile","wt")) == NULL)
 		{
-			fatal("In open log File:");
+			fatal("In open logs File:");
 		}*/
-	/*creo un archivo de log para probar*/
+	/*creo un archivo de logs para probar*/
 
 
 	while ((i = fscanf(arch, "%d %d %d\n", &aux.pos.x, &aux.pos.y, &aux.timechange))
@@ -87,8 +87,8 @@ void newLights(void)
     		   	traficLight[count-1].timechange = aux.timechange;
        			traficLight[count-1].state = VERDEVERT;
        			setState(aux.pos, VERDEVERTICALVACIO);
-       			sprintf(log, "Se creo un semaforo en x= %d, y= %d, tiempo de cambio = %d\n",traficLight[count-1].pos.x , traficLight[count-1].pos.y, traficLight[count-1].timechange );
-				putLogUpdates( log );
+       			sprintf(logs, "Se creo un semaforo en x= %d, y= %d, tiempo de cambio = %d\n",traficLight[count-1].pos.x , traficLight[count-1].pos.y, traficLight[count-1].timechange );
+				putLogUpdates( logs );
 			}
     }
 	cantLights = count;
@@ -107,15 +107,15 @@ static void changeStateSemlight( semaforoT *light)
   {
     light->state = ROJOVERT;
     setState(light->pos, getState(light->pos) + ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-    sprintf(log, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light->pos.x , light->pos.y);
-  	putLogUpdates( log );
+    sprintf(logs, "el semaforo en x= %d, y= %d, cambio a rojo vertical\n",light->pos.x , light->pos.y);
+  	putLogUpdates( logs );
   }
   else
   {
     light->state = VERDEVERT;
      setState(light->pos, getState(light->pos) - ( ROJOVERTICALVACIO - VERDEVERTICALVACIO));
-      sprintf(log, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light->pos.x , light->pos.y);
-	putLogUpdates( log );
+      sprintf(logs, "el semaforo en x= %d, y= %d, cambio a verde vertical\n", light->pos.x , light->pos.y);
+	putLogUpdates( logs );
   }
 }
 

@@ -308,23 +308,23 @@ trafficManager(void)
 				lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 				 if (lineas==NULL)
 	     			fatal("Error (re)allocating memory to save the line list");
-				sprintf(log, "se lee el archivo %s\n", dir->d_name);
-				putLogUpdates( log );
+				sprintf(logs, "se lee el archivo %s\n", dir->d_name);
+				putLogUpdates( logs );
 
 		    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
-		    	sprintf(log, "se termino de leer el archivo %s\n", dir->d_name);
-	    		putLogUpdates( log );
+		    	sprintf(logs, "se termino de leer el archivo %s\n", dir->d_name);
+	    		putLogUpdates( logs );
 	    	}	
 	    }
 	    closedir(d);
 	}
 
 
-	//sprintf(log , "entra al while \n");
+	//sprintf(logs , "entra al while \n");
 
 	while( 1 )
 	{
-		sleep(1);
+		sleep(3);
 
 		change  = 1;
 		changeSemaforo(  time );
@@ -338,8 +338,8 @@ trafficManager(void)
 		{
 			/*aca eligo en que linea lo creo*/
 			test = randoint(0 , cantlinea );
-			sprintf(log , "se crea una persona en la linea %d\n", test );
-			putLogUpdates( log );
+			sprintf(logs , "se crea una persona en la linea %d\n", test );
+			putLogUpdates( logs );
 			 generatePeople(lineas[test] );
 
 		}
@@ -349,8 +349,8 @@ trafficManager(void)
 
 
 
-		sprintf(log, "Se termino de generar personas en el segundo %d\n", time);
-		putLogUpdates( log );
+		sprintf(logs, "Se termino de generar personas en el instante %d\n", time);
+		putLogUpdates( logs );
 
 
 		/*aca se mueven los colectivos*/
