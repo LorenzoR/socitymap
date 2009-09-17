@@ -57,13 +57,14 @@ int updateLinea (lineaT * line, int time)
 {
   int change = 0;
 
- // fprintf(log, "busesSended %d , busesToSend %d, time %d , timeToStart %d",line->busesSended, line->busesToSend, time ,line->timeToStart);
+ // sprintf(log, "busesSended %d , busesToSend %d, time %d , timeToStart %d",line->busesSended, line->busesToSend, time ,line->timeToStart);
   if (line->busesSended < line->busesToSend && ((time %  line->timeToStart == 0 && (line->busesSended -1)  == time / line->timeToStart )||  (line->busesSended -1)  < time / line->timeToStart))
    {
-	//  fprintf(log , "esta vacio ? %d \n",isSpaceEmpty(line->start));
+	//  sprintf(log , "esta vacio ? %d \n",isSpaceEmpty(line->start));
       if (isSpaceEmpty(line->start))
       {
-    	fprintf(log, "Se crea un colectivo en la linea %s\n" , line->name);
+    	sprintf(log, "Se crea un colectivo en la linea %s\n" , line->name);
+    	putLogUpdates( log );
 		InsertBus(line->buses, line->start, time);
 		line->busesSended++;
 		change = 1;
@@ -81,9 +82,11 @@ int updateLinea (lineaT * line, int time)
 
 void generatePeople(lineaADT linea )
 {
-	fprintf(log , "se crea una persona en la linea %s\n", linea->name);
+	sprintf(log , "se crea una persona en la linea %s\n", linea->name);
+	putLogUpdates( log );
 	busGeneratePeople(linea->buses);
-	fprintf(log , "se creo la persona en la linea %s\n", linea->name);
+	sprintf(log , "se creo la persona en la linea %s\n", linea->name);
+	putLogUpdates( log );
 }
 
 
@@ -122,12 +125,12 @@ lineaADT ReadBusLine(char * arch){
 	 * y despues una de coordenada*/
 	paux = newparadas();
 	fscanf(fd, "paradas %d\n", &cantparada);
-	fprintf(log, "cant de paradas %d\n" , cantparada);
+	sprintf(log, "cant de paradas %d\n" , cantparada);
 	i = cantparada;
 	while(i != 0)
 	{
-		fprintf(log, "se crea una parada en la linea %s\n" , aux->name);
-
+		sprintf(log, "se crea una parada en la linea %s\n" , aux->name);
+		putLogUpdates( log );
 		fscanf(fd, "%d %d\n", &pos.x, &pos.y);
 		paux = insertParada(paux, pos);
 		--i;
@@ -151,12 +154,18 @@ lineaADT ReadBusLine(char * arch){
 
 	/*Comprobacion*/
 
-	fprintf(log, "Se cargo la linea %s\n" , aux->name);
-	fprintf(log, "nombe de archivo  %s\n" , aux->name);
-	fprintf(log, "buses a enviar  %d\n" , aux->busesToSend);
-	fprintf(log, "Tiempo a esperar  %d\n" , aux->timeToStart);
-	fprintf(log, "empieza en x %d, y %d\n" , aux->start.x, aux->start.y);
-	fprintf(log, "cant de paradas %d\n" , cantparada);
+	sprintf(log, "Se cargo la linea %s\n" , aux->name);
+	putLogUpdates( log );
+	sprintf(log, "nombe de archivo  %s\n" , aux->name);
+	putLogUpdates( log );
+	sprintf(log, "buses a enviar  %d\n" , aux->busesToSend);
+	putLogUpdates( log );
+	sprintf(log, "Tiempo a esperar  %d\n" , aux->timeToStart);
+	putLogUpdates( log );
+	sprintf(log, "empieza en x %d, y %d\n" , aux->start.x, aux->start.y);
+	putLogUpdates( log );
+	sprintf(log, "cant de paradas %d\n" , cantparada);
+	putLogUpdates( log );
 
 	if (fclose(fd) == EOF)
 		{

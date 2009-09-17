@@ -308,17 +308,19 @@ trafficManager(void)
 				lineas =	realloc (lineas, cantlinea * sizeof(lineaADT));
 				 if (lineas==NULL)
 	     			fatal("Error (re)allocating memory to save the line list");
-				fprintf(log, "se lee el archivo %s\n", dir->d_name);
+				sprintf(log, "se lee el archivo %s\n", dir->d_name);
+				putLogUpdates( log );
 
 		    	lineas[cantlinea -1 ] = ReadBusLine(dir->d_name);
-		    	fprintf(log, "se termino de leer el archivo %s\n", dir->d_name);
+		    	sprintf(log, "se termino de leer el archivo %s\n", dir->d_name);
+	    		putLogUpdates( log );
 	    	}	
 	    }
 	    closedir(d);
 	}
 
 
-	fprintf(log , "entra al while \n");
+	//sprintf(log , "entra al while \n");
 
 	while( 1 )
 	{
@@ -336,8 +338,8 @@ trafficManager(void)
 		{
 			/*aca eligo en que linea lo creo*/
 			test = randoint(0 , cantlinea );
-			fprintf(log , "se crea una persona en la linea %d\n", test );
-
+			sprintf(log , "se crea una persona en la linea %d\n", test );
+			putLogUpdates( log );
 			 generatePeople(lineas[test] );
 
 		}
@@ -347,8 +349,8 @@ trafficManager(void)
 
 
 
-		fprintf(log, "Se termino de generar personas en el segundo %d\n", time);
-
+		sprintf(log, "Se termino de generar personas en el segundo %d\n", time);
+		putLogUpdates( log );
 
 
 		/*aca se mueven los colectivos*/

@@ -13,7 +13,7 @@
 
 /*para probar*/
 #include <stdio.h>
-FILE * log;
+char log[200];
 /*hasta aca*/
 
 
@@ -47,6 +47,7 @@ int getState(coor pos) ;
 int canMove(coor pos, int dir);
 int isSpaceEmpty(coor p);
 int iAmOnBusStop(coor p);
+
 void setLineName(coor pos ,char * name);
 char * getLineName(coor pos);
 void clearLineName(coor pos);
