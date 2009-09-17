@@ -121,9 +121,7 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 	//char test[100];
 	if(bus == NULL)
 		return NOTCHANGE;
-
-	FILE *logs;
-	logs = fopen("log", "a+");
+	char logs[200];
 
 	if (iAmOnBusStop(bus->pos))
 	{
@@ -133,8 +131,8 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 			//putLogUpdates( logs );
 			removepeople(&(bus->people), bus->pos);
 			bus->lastMovedOn = time;
-			//fprintf(logs, "se bajo gente del micro %d\n" , bus->name);
-			//putLogUpdates( logs );
+			sprintf(logs, "se bajo gente del micro %d\n" , bus->name);
+			putLogUpdates( logs );
 		}
 		if (hastostop(list->paradas ,bus->pos))
 		{
@@ -143,8 +141,8 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 			//putLogUpdates( logs );
 			movepeople(list->paradas ,bus->pos , &(bus->people));
 			bus->lastMovedOn = time;
-			//fprintf(logs, "subio la gente al micro %d\n" , bus->name);
-			//putLogUpdates( logs );
+			sprintf(logs, "subio la gente al micro %d\n" , bus->name);
+			putLogUpdates( logs );
 		}
 	}
 	if(time != bus->lastMovedOn)
@@ -184,23 +182,22 @@ static int updateBus(colectivoADT  bus,int  time, listADT list)
 			setName(bus->pos, bus->name);
 			setLineName(bus->pos , list->name);
 			bus->lastMovedOn = time;
-			fprintf(logs, "linea %d\n" , getLineName(bus->pos));
-			////putLogUpdates( logs );
+			sprintf(logs, "me movi colectivo %d \n" , getName(bus->pos));
+			putLogUpdates( logs );
 
 			getNewRoute(bus, list);
+
+
 			return CHANGE + updateBus(bus->sig, time, list);
 		}
 	}
 
-	fclose(logs);
+
 	return NOTCHANGE + updateBus(bus->sig, time , list);
 }
 
 listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas, char * name)
 {
-	FILE *logs;
-	logs = fopen("log", "a+");
-
 	listADT aux;
 	if (!(aux = malloc(sizeof(struct listT))))
 		fatal("No memory for buses list\n");
@@ -210,10 +207,11 @@ listADT newBuses(coor route[], int cant, paradaADT paradas, int cantParadas, cha
 		aux->paradas = paradas;
 		aux->cantParadas = cantParadas;
 		aux->name = newLineName;
-		fprintf(logs, "El pseudo nombre de la linea %s, es %d\n" , name, aux->name);
-		//putLogUpdates( logs );
+		sprintf(logs, "El pseudo nombre de la linea %s, es %d\n" , name, aux->name);
+		putLogUpdates( logs );
 		newLineName++;
-		fclose(logs);
+		newLineName++;
+
 		return aux;
 
 }
@@ -226,8 +224,6 @@ int updeteColectivos(listADT list,int  time)
 
 void InsertBus(listADT list, coor pos, int time) {
 	colectivoADT aux;
-		FILE *logs;
-		logs = fopen("log", "a+");
 
 		aux = list->bus;
 		if (!(list->bus = malloc(sizeof(struct colectivoT))))
@@ -240,16 +236,21 @@ void InsertBus(listADT list, coor pos, int time) {
 		list->bus->sig =aux;
 		list->bus->people = NULL;
 
-		fprintf(logs, "========> newname %d\n", newname);
+//		fprintf(logs, "El estado es %d\n" , getState(list->bus->pos));
+
+		//fprintf(logs, "========> newname %d\n", newname);
 		setState(list->bus->pos , getState(list->bus->pos) + 1); /*pasa de vacio a lleno*/
 		setName(list->bus->pos , list->bus->name);
 		setLineName(list->bus->pos , list->name);
+//		fprintf(logs, "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n" );
 
 		newname++;
+//		fprintf(logs, "El estado es %d\n" , getState(list->bus->pos));
+//		fprintf(logs, "esta vacio? %d\n" , isSpaceEmpty(list->bus->pos));
+//		 fprintf(logs, "el oclectivo esta en x = %d, y = %d", list->bus->pos.x, list->bus->pos.y);
+		sprintf(logs, "Se creo un colectivo %d\n" , list->bus->name);
+		putLogUpdates( logs );
 
-		fprintf(logs, "Se creo un colectivo %d\n" , list->bus->name);
-		//putLogUpdates( logs );
-		fclose(logs);
 }
 
 

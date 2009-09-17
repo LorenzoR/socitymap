@@ -90,7 +90,7 @@ main(void)
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
 	}
-	/*
+
 	switch ( pid = fork() )
 	{
 		case -1:
@@ -117,8 +117,8 @@ main(void)
 			//signal(SIGCHLD, procesosZombies);
 			setSignals();
 	}
-	*/
-	//char *mylog;
+
+	char *mylog;
 	while (1)
 	{
 		//printf("Waiting for changes ...\n");//DEBUG
@@ -132,7 +132,7 @@ main(void)
 			//emulate multiple messages for the log window
 			//i = (i+1) %12;
 		}
-		/*
+
 		if( getLogUpdates( &mylog ) == 0)
 		{
 			//updateScreenLog( events[i] );
@@ -140,7 +140,7 @@ main(void)
 			free(mylog);
 			update_display();
 		}
-		*/
+
    	}
 
 
@@ -282,8 +282,7 @@ trafficManager(void)
 	DIR *d;
 	struct dirent *dir;
 
-	FILE *logs;
-		logs = fopen("log", "a+");
+
 	iniciarRandom();
 
 	getNewSession(CLIENT);
@@ -321,9 +320,12 @@ trafficManager(void)
 
 
 	//fprintf(logs , "entra al while \n");
-
+	putMapUpdates(&map);
 	while( 1 )
 	{
+
+
+
 		sleep(1);
 
 		change  = 1;
@@ -349,8 +351,8 @@ trafficManager(void)
 
 
 
-		//fprintf(logs, "Se termino de generar personas en el instante %d\n", time);
-		//putLogUpdates( logs );
+		sprintf(logs, "Se termino de generar personas en el instante %d\n", time);
+		putLogUpdates( logs );
 
 
 		/*aca se mueven los colectivos*/
@@ -363,10 +365,11 @@ trafficManager(void)
 					change = 1;
 		}
 
+
 		putMapUpdates(&map);
 		time++;
 	}
-	fclose(logs);
+
 	return;
 }
 
@@ -615,8 +618,8 @@ updateStatus( int y, int x, int status, int i, int j, struct mapCDT *map)
 	//ROJOVERTICALVACIO = 4, ROJOVERTICALLENO =5,  PARADAVACIO = 6, PARADASLLENO = 7
 	switch( status )
 	{
-	case VACIO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(2));
-				mvwaddch(citySystem.mapWindow, y, x, ' ');break;
+	case VACIO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(3));
+				mvwaddch(citySystem.mapWindow, y, x, 'O');break;
 	case LLENO: wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(getLineName2(*map, pos)%13));
 				mvwaddch(citySystem.mapWindow, y, x, (getName2(*map, pos) % 10 )+'0');break;
 	case VERDEVERTICALVACIO : 	wbkgdset(citySystem.mapWindow, ' ' | A_BOLD | COLOR_PAIR(2));

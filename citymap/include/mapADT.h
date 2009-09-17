@@ -14,8 +14,9 @@
 /*para probar*/
 #include <stdio.h>
 //char logs[200];
-FILE *logs;
+char logs[200];
 /*hasta aca*/
+
 
 
 enum {NORTE =1, OESTE=2 , ESTE=3, SUR=4};

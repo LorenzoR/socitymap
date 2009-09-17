@@ -1,0 +1,7184 @@
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 2
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+linea 2
+linea 2
+linea 1
+linea 1
+Se baja la persona  9
+linea 2
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+linea 2
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+linea 2
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+linea 2
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+Se baja la persona  2
+Se baja la persona  4
+Se baja la persona  7
+linea 2
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+Se baja la persona  5
+linea 2
+linea 2
+linea 1
+linea 1
+linea 1
+linea 2
+linea 2
+linea 1
+linea 1
+linea 2
+linea 2
+linea 1
+linea 1
+linea 2
+linea 2
+linea 1
+linea 1
+linea 2
+linea 2
+linea 1
+linea 1
+linea 2
+linea 1
+linea 1
+linea 2
+linea 1
+linea 2
+linea 1
+linea 2
+linea 1
+linea 2
+linea 1
+linea 1
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+Se creo un colectivo 2
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 18, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 25, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 26, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 29, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 30, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 32, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 34, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 37, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 38, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 39, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 41, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 42, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 43, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 44, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 45, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 46, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 47, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 48, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 49, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 50, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 51, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 52, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 53, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 54, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 55, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 56, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 57, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 58, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 59, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 60, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 61, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 62, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 63, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 64, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  19
+Se baja la persona  29
+Se baja la persona  30
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  34
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  35
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  31
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  14
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  12
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  8
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  17
+Se baja la persona  20
+Se baja la persona  25
+Se baja la persona  26
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  13
+Se baja la persona  15
+Se baja la persona  16
+Se baja la persona  22
+Se baja la persona  24
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  9
+Se baja la persona  10
+Se baja la persona  11
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  1
+Se baja la persona  5
+Se baja la persona  6
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  0
+Se baja la persona  3
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  7
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  2
+Se baja la persona  4
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 0
+Se creo un colectivo 0
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 4
+Se creo un colectivo 4
+========> newname 5
+Se creo un colectivo 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  3
+Se baja la persona  2
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 1
+linea 3
+Se baja la persona  0
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 1
+linea 1
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+========> newname 0
+Se creo un colectivo 0
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+Se creo un colectivo 4
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 16, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 29, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 34, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 35, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 37, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 38, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 39, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 40, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 41, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 42, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 43, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 44, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 45, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 46, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 47, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 48, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 49, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 50, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 51, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 52, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 53, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 54, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 55, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 56, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 57, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 58, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 59, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 60, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 61, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 62, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 63, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 64, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 65, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 66, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 67, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 68, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 69, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 70, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 71, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 72, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 73, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 74, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 75, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 76, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 77, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 78, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 79, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 80, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 81, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 82, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 83, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 84, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 85, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 86, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 87, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 88, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 89, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 90, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 91, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  82
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  62
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  80
+Se baja la persona  78
+linea 1
+Se baja la persona  61
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  63
+Se baja la persona  64
+Se baja la persona  68
+Se baja la persona  71
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  75
+Se baja la persona  76
+Se baja la persona  74
+Se baja la persona  72
+Se baja la persona  57
+Se baja la persona  60
+Se baja la persona  67
+Se baja la persona  70
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  58
+Se baja la persona  59
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  52
+Se baja la persona  53
+Se baja la persona  56
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  38
+Se baja la persona  49
+Se baja la persona  50
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 3
+linea 3
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+Se baja la persona  22
+Se baja la persona  24
+Se baja la persona  25
+Se baja la persona  28
+Se baja la persona  33
+Se baja la persona  35
+Se baja la persona  36
+Se baja la persona  40
+Se baja la persona  42
+Se baja la persona  43
+Se baja la persona  44
+Se baja la persona  45
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  54
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  55
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  51
+Se baja la persona  47
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  48
+Se baja la persona  46
+Se baja la persona  16
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  15
+Se baja la persona  17
+Se baja la persona  18
+Se baja la persona  19
+Se baja la persona  23
+Se baja la persona  26
+Se baja la persona  29
+Se baja la persona  32
+Se baja la persona  39
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  11
+Se baja la persona  13
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  14
+Se baja la persona  20
+Se baja la persona  21
+Se baja la persona  27
+Se baja la persona  30
+Se baja la persona  31
+Se baja la persona  34
+Se baja la persona  37
+Se baja la persona  41
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  9
+Se baja la persona  10
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  1
+Se baja la persona  5
+Se baja la persona  7
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+Se baja la persona  6
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  8
+Se baja la persona  12
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  4
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  2
+Se baja la persona  3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  0
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 1
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 1
+Se creo un colectivo 1
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+Se creo un colectivo 2
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 4
+Se creo un colectivo 4
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 17, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 25, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  14
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  13
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  11
+Se baja la persona  8
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+Se baja la persona  7
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  1
+Se baja la persona  0
+linea 3
+linea 1
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 1
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+Se creo un colectivo 2
+========> newname 3
+Se creo un colectivo 3
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 7
+Se creo un colectivo 7
+========> newname 8
+Se creo un colectivo 8
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+Se creo un colectivo 9
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+Se creo un colectivo 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 11
+Se creo un colectivo 11
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 12
+Se creo un colectivo 12
+========> newname 13
+Se creo un colectivo 13
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 14
+Se creo un colectivo 14
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 16, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 17, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 18, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 26, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 29, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 31, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 32, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 34, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 36, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 37, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 39, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 41, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 42, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 43, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 44, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 45, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 46, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 47, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 48, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 49, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 50, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 51, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 52, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 53, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 54, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 55, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 56, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 57, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 58, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 59, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 60, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 61, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 62, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 63, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 64, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 65, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 66, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 67, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 68, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 69, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 70, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 3
+Se creo un colectivo 3
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 5
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 6
+Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 7
+Se creo un colectivo 7
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 8
+Se creo un colectivo 8
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+Se creo un colectivo 9
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+Se creo un colectivo 10
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 11
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 12
+Se creo un colectivo 12
+se creo la persona 15, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 13
+Se creo un colectivo 13
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 17, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 14
+Se creo un colectivo 14
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 23, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 24, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 25, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 29, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 34, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 36, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 37, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 39, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 41, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 42, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 43, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 44, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 45, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 46, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 47, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 48, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 49, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 50, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 51, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 52, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 53, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  45
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  19
+Se baja la persona  35
+Se baja la persona  42
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  23
+Se baja la persona  38
+Se baja la persona  41
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+Se baja la persona  15
+Se baja la persona  13
+Se baja la persona  14
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  31
+Se baja la persona  36
+Se baja la persona  37
+Se baja la persona  39
+Se baja la persona  40
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  22
+Se baja la persona  27
+Se baja la persona  30
+Se baja la persona  32
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  10
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+Se baja la persona  0
+Se baja la persona  7
+Se baja la persona  9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  18
+Se baja la persona  20
+Se baja la persona  24
+Se baja la persona  25
+Se baja la persona  34
+linea 9
+linea 7
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+Se baja la persona  8
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+Se baja la persona  1
+Se baja la persona  2
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  16
+Se baja la persona  12
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  11
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  5
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  6
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  4
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  3
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+Se creo un colectivo 2
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 4
+Se creo un colectivo 4
+========> newname 5
+Se creo un colectivo 5
+========> newname 6
+Se creo un colectivo 6
+========> newname 7
+Se creo un colectivo 7
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 8
+Se creo un colectivo 8
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+Se creo un colectivo 9
+se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+Se creo un colectivo 10
+========> newname 11
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 12
+Se creo un colectivo 12
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 13
+Se creo un colectivo 13
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 14
+Se creo un colectivo 14
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  9
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  4
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  2
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 2
+Se creo un colectivo 2
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 3
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 5
+Se creo un colectivo 5
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 6
+Se creo un colectivo 6
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 7
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 8
+Se creo un colectivo 8
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+Se creo un colectivo 9
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 15, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+Se creo un colectivo 10
+========> newname 11
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 12
+Se creo un colectivo 12
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 13
+Se creo un colectivo 13
+se creo la persona 18, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 14
+Se creo un colectivo 14
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  16
+Se baja la persona  17
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  11
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  8
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+Se baja la persona  3
+Se baja la persona  4
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  7
+Se baja la persona  6
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  5
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+Se creo un colectivo 0
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 1
+Se creo un colectivo 1
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 3
+Se creo un colectivo 3
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+Se creo un colectivo 5
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+Se creo un colectivo 6
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 7
+Se creo un colectivo 7
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 8
+Se creo un colectivo 8
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 15, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+Se creo un colectivo 9
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+Se creo un colectivo 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 11
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 12
+Se creo un colectivo 12
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 13
+Se creo un colectivo 13
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 14
+Se creo un colectivo 14
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 20, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 21, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 28, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 29, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+Se baja la persona  4
+Se baja la persona  7
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  16
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  14
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  13
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  11
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  2
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  0
+Se baja la persona  3
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+El estado es 7
+Se creo un colectivo 0
+========> newname 1
+El estado es 7
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+El estado es 7
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+========> newname 3
+El estado es 7
+Se creo un colectivo 3
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+El estado es 7
+Se creo un colectivo 4
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 5
+El estado es 7
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+El estado es 7
+Se creo un colectivo 6
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 7
+El estado es 7
+Se creo un colectivo 7
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 8
+El estado es 7
+Se creo un colectivo 8
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+El estado es 7
+Se creo un colectivo 9
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+El estado es 7
+Se creo un colectivo 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 11
+El estado es 7
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 12
+El estado es 7
+Se creo un colectivo 12
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 13
+El estado es 7
+Se creo un colectivo 13
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 14
+El estado es 7
+Se creo un colectivo 14
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 15, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 16, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 17, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 18, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 29, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 33, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 34, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 37, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 39, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 40, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 41, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 42, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 43, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 44, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 45, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 46, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 47, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 48, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 49, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 50, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 51, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 52, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 53, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 54, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 55, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 56, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 57, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 58, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 59, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 60, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 61, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 62, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 63, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 64, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 65, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 66, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 67, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 68, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 69, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 70, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 71, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 72, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 73, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 74, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 75, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 76, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 77, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 78, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 79, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 80, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 81, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 82, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 0
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 1
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 1
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 2
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 3
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 5
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 6
+========> newname 7
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 8
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 8
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 9
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 15, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 11
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 11
+========> newname 12
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 12
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 13
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 13
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 14
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 14
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 24, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 25, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 28, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 29, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 30, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 34, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 37, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 39, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se baja la persona  15
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  31
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+Se baja la persona  14
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 9
+linea 9
+linea 7
+linea 7
+linea 7
+linea 5
+linea 5
+linea 5
+linea 3
+linea 3
+linea 3
+linea 1
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  25
+Se baja la persona  28
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  11
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  0
+Se baja la persona  5
+linea 9
+linea 7
+linea 5
+Se baja la persona  29
+Se baja la persona  16
+Se baja la persona  19
+Se baja la persona  24
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+Se baja la persona  18
+Se baja la persona  20
+Se baja la persona  21
+Se baja la persona  23
+linea 1
+linea 9
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 9
+Se baja la persona  13
+Se baja la persona  7
+Se baja la persona  9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 9
+linea 7
+Se baja la persona  4
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 9
+linea 7
+linea 7
+linea 5
+linea 5
+linea 3
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+Se baja la persona  3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  17
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  12
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  6
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  10
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  8
+Se baja la persona  2
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 0
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 0
+esta vacio? 1
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 1
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 1
+esta vacio? 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 2
+esta vacio? 1
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+esta vacio? 1
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta vacio? 1
+========> newname 5
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+esta vacio? 1
+========> newname 6
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 6
+esta vacio? 1
+========> newname 7
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 7
+esta vacio? 1
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 8
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 8
+esta vacio? 1
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 9
+esta vacio? 1
+========> newname 10
+El estado es 7
+esta vacio? 0
+Se creo un colectivo 10
+esta vacio? 1
+Se baja la persona  1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+Se baja la persona  0
+Se baja la persona  2
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta vacio? 1
+esta en x = 8, y = 4========> newname 1
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 5
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 4
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+========> newname 7
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 7
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 8
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 8
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+========> newname 9
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 9
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+========> newname 10
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 10
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 12, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 11
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 11
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+========> newname 12
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 12
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 14, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 13
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 13
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 14
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 14
+Se sube la gente de la parada en x= 8, y= 4
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 16, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 18, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 28, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 29, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 34, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 35, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 37, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 39, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 41, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 42, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 43, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 44, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 45, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 46, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 47, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 48, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 49, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 50, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 51, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 52, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 53, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 54, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 55, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 56, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 57, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 58, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 59, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 60, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 61, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 62, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 63, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 64, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 65, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 66, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 67, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 68, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 69, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 70, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 71, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 72, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 73, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 74, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 75, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 76, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 77, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 78, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 1
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 4
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 5
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 6
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 6
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 11, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+========> newname 7
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 7
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 9
+linea 7
+linea 5
+linea 3
+linea 1
+linea 7
+linea 5
+linea 3
+linea 1
+linea 5
+linea 3
+linea 1
+linea 3
+linea 1
+linea 3
+linea 1
+linea 1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+========> newname 0
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 1
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 3
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 4
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 5
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 6
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 7
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 7
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 8
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 8
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 9
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 9
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 10
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 10
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 11
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 11
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 12
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 12
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+Se sube la gente de la parada en x= 8, y= 10
+========> newname 13
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 13
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 7
+esta en 7
+========> newname 14
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 14
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 16, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 17, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 19, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 20, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 23, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 24, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 26, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 27, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 29, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 30, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 31, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 32, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 34, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 35, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 36, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 37, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 38, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 39, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 41, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 42, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 43, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 44, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 45, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 46, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 47, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 48, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 49, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 50, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 51, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 52, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 53, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 54, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 55, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 56, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 57, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 58, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 59, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 60, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 0
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 1
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 2
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 3
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 7
+esta en 7
+esta en 7
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 4
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 5
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 6
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+estoy en  1
+estoy en  9
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  9
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+========> newname 0
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 1
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 2
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+========> newname 3
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 4
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 5
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+estoy en  9
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 0
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 0
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 2
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 3
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 4
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+========> newname 5
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+esta en 6
+esta vacio? 1
+esta en x = 8, y = 4esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+esta en 7
+estoy en  9
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+========> newname 0
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+========> newname 1
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbb========> newname 2
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbestoy en  3
+estoy en  1
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbEl estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbEl estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbEl estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbestoy en  9
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  7
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  5
+estoy en  3
+estoy en  1
+estoy en  3
+estoy en  1
+estoy en  1
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 0
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+estoy en  1
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 1
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbse creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+estoy en  1
+estoy en  3
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 2
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbestoy en  1
+estoy en  3
+estoy en  5
+El estado es 6
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+El estado es 7
+esta vacio? 0
+el oclectivo esta en x = 8, y = 4Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+esta en 6
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta vacio? 1
+esta en x = 8, y = 4esta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbesta en 7
+bbbbbbbbbbbbbbbbbbbbbbbbbbSe cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se creo un colectivo 0
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+Se creo un colectivo 1
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se sube la gente de la parada en x= 8, y= 10
+me movi colectivo 5 
+me movi colectivo 0 
+Se creo un colectivo 6
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 5 
+me movi colectivo 0 
+me movi colectivo 6 
+me movi colectivo 1 
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se sube la gente de la parada en x= 8, y= 10
+me movi colectivo 5 
+me movi colectivo 0 
+me movi colectivo 6 
+me movi colectivo 1 
+me movi colectivo 7 
+me movi colectivo 2 
+Se creo un colectivo 8
+me movi colectivo 3 
+me movi colectivo 4 
+Se baja la persona  0
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+Se creo un colectivo 0
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+Se creo un colectivo 1
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 2, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 0
+me movi colectivo 0 
+Se creo un colectivo 1
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 7 
+me movi colectivo 2 
+Se creo un colectivo 8
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+Se baja la persona  3
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se creo un colectivo 0
+me movi colectivo 0 
+Se creo un colectivo 1
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+El pseudo nombre de la linea linea60, es 3
+El pseudo nombre de la linea lineas2, es 5
+El pseudo nombre de la linea lineas3, es 7
+El pseudo nombre de la linea lineas4, es 9
+Se creo un colectivo 0
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 1, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+Se creo un colectivo 8
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+me movi colectivo 8 
+Se creo un colectivo 9
+se creo la persona 10, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+me movi colectivo 8 
+me movi colectivo 9 
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 10
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 13, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se sube la gente de la parada en x= 8, y= 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+me movi colectivo 8 
+me movi colectivo 9 
+me movi colectivo 10 
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+Se baja la persona  2
+Se baja la persona  1
+Se baja la persona  3
+Se baja la persona  0
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea linea60, es 3
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas2, es 5
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas3, es 7
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas4, es 9
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 0
+me movi colectivo 0 
+Se creo un colectivo 1
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 4, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 6, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 8, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 9, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+El pseudo nombre de la linea lineas, es 1
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea linea60, es 3
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas2, es 5
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas3, es 7
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas4, es 9
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas, es 1
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea linea60, es 3
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas2, es 5
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas3, es 7
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas4, es 9
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+se creo la persona 0, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 0
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+Se creo un colectivo 1
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+Se creo un colectivo 2
+se creo la persona 3, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se creo un colectivo 3
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 5, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+Se creo un colectivo 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+Se creo un colectivo 5
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 6
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 7
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+Se creo un colectivo 8
+se creo la persona 7, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+me movi colectivo 0 
+me movi colectivo 1 
+me movi colectivo 2 
+Se sube la gente de la parada en x= 8, y= 4
+me movi colectivo 3 
+me movi colectivo 4 
+me movi colectivo 5 
+me movi colectivo 6 
+me movi colectivo 7 
+Se sube la gente de la parada en x= 8, y= 10
+El pseudo nombre de la linea lineas, es 1
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea linea60, es 3
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas2, es 5
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas3, es 7
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+El pseudo nombre de la linea lineas4, es 9
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+se creo la persona 0, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se creo un colectivo 0
+se creo la persona 1, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 2, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se creo un colectivo 1
+se creo la persona 3, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 4, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 2
+Se sube la gente de la parada en x= 8, y= 4
+Se creo un colectivo 3
+Se creo un colectivo 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 5, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 6, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 5
+se creo la persona 7, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 8, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 6
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 7
+se creo la persona 9, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 8
+se creo la persona 10, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+Se creo un colectivo 9
+se creo la persona 11, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 12, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 10
+se creo la persona 13, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 14, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 15, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se creo un colectivo 11
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 16, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 17, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se creo un colectivo 12
+Se sube la gente de la parada en x= 8, y= 4
+Se creo un colectivo 13
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 18, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 19, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se creo un colectivo 14
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 20, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 21, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 22, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 23, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 24, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 25, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 26, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 27, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 28, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 29, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 30, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 31, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 32, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 33, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 34, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+se creo la persona 35, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 36, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+se creo la persona 37, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 4
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 38, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se sube la gente de la parada en x= 8, y= 10
+se creo la persona 39, esta en la parada x = 8, y = 10, viaja hasta la parada en x = 8, y = 4
+Se sube la gente de la parada en x= 8, y= 4
+se creo la persona 40, esta en la parada x = 8, y = 4, viaja hasta la parada en x = 8, y = 10
+Se baja la persona  9
+Se baja la persona  12
+Se baja la persona  20
+Se baja la persona  18
+Se baja la persona  27
+Se baja la persona  1
+Se baja la persona  5
+Se baja la persona  4
+Se baja la persona  6
+Se baja la persona  7
+Se baja la persona  8
+Se baja la persona  11
+Se baja la persona  17
+Se baja la persona  10
+Se baja la persona  15
+Se baja la persona  13
+Se baja la persona  0
+Se baja la persona  2
+Se baja la persona  3
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas
+nombe de archivo  lineas
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea linea60
+nombe de archivo  linea60
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas2
+nombe de archivo  lineas2
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas3
+nombe de archivo  lineas3
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
+Se cargo la linea lineas4
+nombe de archivo  lineas4
+buses a enviar  3
+Tiempo a esperar  5
+empieza en x 8, y 4
+cant de paradas 2
